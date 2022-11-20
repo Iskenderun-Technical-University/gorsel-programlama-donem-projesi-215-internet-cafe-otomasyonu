@@ -49,6 +49,8 @@
             this.masa12 = new System.Windows.Forms.Button();
             this.masa11 = new System.Windows.Forms.Button();
             this.masa10 = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // masa1
@@ -310,12 +312,32 @@
             this.masa10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa10.UseVisualStyleBackColor = true;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(1148, 12);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(196, 27);
+            this.dateTimePicker1.TabIndex = 18;
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(1179, 90);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(130, 112);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "MASA AKTİFLEŞTİR";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1380, 506);
+            this.ClientSize = new System.Drawing.Size(1356, 554);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.masa18);
             this.Controls.Add(this.masa17);
             this.Controls.Add(this.masa16);
@@ -362,5 +384,7 @@
         private Button masa11;
         private Button masa10;
         private ImageList ımageList1;
+        private DateTimePicker dateTimePicker1;
+        private Button button1;
     }
 }

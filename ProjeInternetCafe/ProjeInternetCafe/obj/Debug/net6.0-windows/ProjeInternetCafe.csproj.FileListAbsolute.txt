@@ -16,3 +16,21 @@ C:\Users\Ahmet\Desktop\C#\Formgiris\ProjeInternetCafe\ProjeInternetCafe\obj\Debu
 C:\Users\Ahmet\Desktop\C#\Formgiris\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.pdb
 C:\Users\Ahmet\Desktop\C#\Formgiris\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.genruntimeconfig.cache
 C:\Users\Ahmet\Desktop\C#\Formgiris\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ref\ProjeInternetCafe.dll
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.csproj.AssemblyReference.cache
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.Form1.resources
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.Properties.Resources.resources
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.csproj.GenerateResource.cache
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.AssemblyInfoInputs.cache
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.AssemblyInfo.cs
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.csproj.CoreCompileInputs.cache
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.dll
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\refint\ProjeInternetCafe.dll
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.pdb
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\bin\Debug\net6.0-windows\ProjeInternetCafe.exe
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\bin\Debug\net6.0-windows\ProjeInternetCafe.deps.json
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\bin\Debug\net6.0-windows\ProjeInternetCafe.runtimeconfig.json
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\bin\Debug\net6.0-windows\ProjeInternetCafe.dll
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\bin\Debug\net6.0-windows\ProjeInternetCafe.pdb
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ProjeInternetCafe.genruntimeconfig.cache
+C:\Users\Mehmet Ali\Documents\GitHub\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\ProjeInternetCafe\ProjeInternetCafe\obj\Debug\net6.0-windows\ref\ProjeInternetCafe.dll

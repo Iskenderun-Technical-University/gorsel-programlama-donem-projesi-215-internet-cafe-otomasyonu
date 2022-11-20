@@ -11,5 +11,10 @@ namespace ProjeInternetCafe
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("BÝLGÝSAYAR AKTÝF EDÝLDÝ.."); 
+        }
     }
 }
