@@ -15,6 +15,7 @@ namespace ProjeInternetCafe
         public Form2()
         {
             InitializeComponent();
+
         }
 
         private void progressBar1_Click(object sender, EventArgs e)
@@ -23,6 +24,16 @@ namespace ProjeInternetCafe
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSuresiz_Click(object sender, EventArgs e)
         {
 
         }

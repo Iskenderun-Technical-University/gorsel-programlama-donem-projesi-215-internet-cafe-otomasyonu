@@ -59,13 +59,15 @@
             this.masa1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa1.ImageKey = "pngwing.com (2).png";
             this.masa1.ImageList = this.ımageList1;
-            this.masa1.Location = new System.Drawing.Point(12, 29);
+            this.masa1.Location = new System.Drawing.Point(10, 22);
+            this.masa1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa1.Name = "masa1";
-            this.masa1.Size = new System.Drawing.Size(116, 116);
+            this.masa1.Size = new System.Drawing.Size(102, 87);
             this.masa1.TabIndex = 0;
             this.masa1.Text = "Masa-1";
             this.masa1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa1.UseVisualStyleBackColor = true;
+            this.masa1.Click += new System.EventHandler(this.masa1_Click);
             // 
             // ımageList1
             // 
@@ -80,13 +82,15 @@
             this.masa2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa2.ImageKey = "pngwing.com (2).png";
             this.masa2.ImageList = this.ımageList1;
-            this.masa2.Location = new System.Drawing.Point(134, 29);
+            this.masa2.Location = new System.Drawing.Point(117, 22);
+            this.masa2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa2.Name = "masa2";
-            this.masa2.Size = new System.Drawing.Size(116, 116);
+            this.masa2.Size = new System.Drawing.Size(102, 87);
             this.masa2.TabIndex = 1;
             this.masa2.Text = "Masa-2";
             this.masa2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa2.UseVisualStyleBackColor = true;
+            this.masa2.Click += new System.EventHandler(this.masa2_Click);
             // 
             // masa3
             // 
@@ -94,9 +98,10 @@
             this.masa3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa3.ImageKey = "pngwing.com (2).png";
             this.masa3.ImageList = this.ımageList1;
-            this.masa3.Location = new System.Drawing.Point(256, 29);
+            this.masa3.Location = new System.Drawing.Point(224, 22);
+            this.masa3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa3.Name = "masa3";
-            this.masa3.Size = new System.Drawing.Size(116, 116);
+            this.masa3.Size = new System.Drawing.Size(102, 87);
             this.masa3.TabIndex = 2;
             this.masa3.Text = "Masa-3";
             this.masa3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -108,9 +113,10 @@
             this.masa4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa4.ImageKey = "pngwing.com (2).png";
             this.masa4.ImageList = this.ımageList1;
-            this.masa4.Location = new System.Drawing.Point(378, 29);
+            this.masa4.Location = new System.Drawing.Point(331, 22);
+            this.masa4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa4.Name = "masa4";
-            this.masa4.Size = new System.Drawing.Size(116, 116);
+            this.masa4.Size = new System.Drawing.Size(102, 87);
             this.masa4.TabIndex = 3;
             this.masa4.Text = "Masa-4";
             this.masa4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -122,9 +128,10 @@
             this.masa5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa5.ImageKey = "pngwing.com (2).png";
             this.masa5.ImageList = this.ımageList1;
-            this.masa5.Location = new System.Drawing.Point(500, 29);
+            this.masa5.Location = new System.Drawing.Point(438, 22);
+            this.masa5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa5.Name = "masa5";
-            this.masa5.Size = new System.Drawing.Size(116, 116);
+            this.masa5.Size = new System.Drawing.Size(102, 87);
             this.masa5.TabIndex = 4;
             this.masa5.Text = "Masa-5";
             this.masa5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -136,9 +143,10 @@
             this.masa6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa6.ImageKey = "pngwing.com (2).png";
             this.masa6.ImageList = this.ımageList1;
-            this.masa6.Location = new System.Drawing.Point(622, 29);
+            this.masa6.Location = new System.Drawing.Point(544, 22);
+            this.masa6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa6.Name = "masa6";
-            this.masa6.Size = new System.Drawing.Size(116, 116);
+            this.masa6.Size = new System.Drawing.Size(102, 87);
             this.masa6.TabIndex = 5;
             this.masa6.Text = "Masa-6";
             this.masa6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -150,9 +158,10 @@
             this.masa7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa7.ImageKey = "pngwing.com (2).png";
             this.masa7.ImageList = this.ımageList1;
-            this.masa7.Location = new System.Drawing.Point(744, 29);
+            this.masa7.Location = new System.Drawing.Point(651, 22);
+            this.masa7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa7.Name = "masa7";
-            this.masa7.Size = new System.Drawing.Size(116, 116);
+            this.masa7.Size = new System.Drawing.Size(102, 87);
             this.masa7.TabIndex = 6;
             this.masa7.Text = "Masa-7";
             this.masa7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -164,9 +173,10 @@
             this.masa8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa8.ImageKey = "pngwing.com (2).png";
             this.masa8.ImageList = this.ımageList1;
-            this.masa8.Location = new System.Drawing.Point(866, 29);
+            this.masa8.Location = new System.Drawing.Point(758, 22);
+            this.masa8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa8.Name = "masa8";
-            this.masa8.Size = new System.Drawing.Size(116, 116);
+            this.masa8.Size = new System.Drawing.Size(102, 87);
             this.masa8.TabIndex = 7;
             this.masa8.Text = "Masa-8";
             this.masa8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -178,9 +188,10 @@
             this.masa9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa9.ImageKey = "pngwing.com (2).png";
             this.masa9.ImageList = this.ımageList1;
-            this.masa9.Location = new System.Drawing.Point(988, 29);
+            this.masa9.Location = new System.Drawing.Point(864, 22);
+            this.masa9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa9.Name = "masa9";
-            this.masa9.Size = new System.Drawing.Size(116, 116);
+            this.masa9.Size = new System.Drawing.Size(102, 87);
             this.masa9.TabIndex = 8;
             this.masa9.Text = "Masa-9";
             this.masa9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -192,9 +203,10 @@
             this.masa18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa18.ImageKey = "pngwing.com (2).png";
             this.masa18.ImageList = this.ımageList1;
-            this.masa18.Location = new System.Drawing.Point(988, 146);
+            this.masa18.Location = new System.Drawing.Point(864, 110);
+            this.masa18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa18.Name = "masa18";
-            this.masa18.Size = new System.Drawing.Size(116, 116);
+            this.masa18.Size = new System.Drawing.Size(102, 87);
             this.masa18.TabIndex = 17;
             this.masa18.Text = "Masa-18";
             this.masa18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -206,9 +218,10 @@
             this.masa17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa17.ImageKey = "pngwing.com (2).png";
             this.masa17.ImageList = this.ımageList1;
-            this.masa17.Location = new System.Drawing.Point(866, 146);
+            this.masa17.Location = new System.Drawing.Point(758, 110);
+            this.masa17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa17.Name = "masa17";
-            this.masa17.Size = new System.Drawing.Size(116, 116);
+            this.masa17.Size = new System.Drawing.Size(102, 87);
             this.masa17.TabIndex = 16;
             this.masa17.Text = "Masa-17";
             this.masa17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -220,9 +233,10 @@
             this.masa16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa16.ImageKey = "pngwing.com (2).png";
             this.masa16.ImageList = this.ımageList1;
-            this.masa16.Location = new System.Drawing.Point(744, 146);
+            this.masa16.Location = new System.Drawing.Point(651, 110);
+            this.masa16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa16.Name = "masa16";
-            this.masa16.Size = new System.Drawing.Size(116, 116);
+            this.masa16.Size = new System.Drawing.Size(102, 87);
             this.masa16.TabIndex = 15;
             this.masa16.Text = "Masa-16";
             this.masa16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -234,9 +248,10 @@
             this.masa15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa15.ImageKey = "pngwing.com (2).png";
             this.masa15.ImageList = this.ımageList1;
-            this.masa15.Location = new System.Drawing.Point(622, 146);
+            this.masa15.Location = new System.Drawing.Point(544, 110);
+            this.masa15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa15.Name = "masa15";
-            this.masa15.Size = new System.Drawing.Size(116, 116);
+            this.masa15.Size = new System.Drawing.Size(102, 87);
             this.masa15.TabIndex = 14;
             this.masa15.Text = "Masa-15";
             this.masa15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -248,9 +263,10 @@
             this.masa14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa14.ImageKey = "pngwing.com (2).png";
             this.masa14.ImageList = this.ımageList1;
-            this.masa14.Location = new System.Drawing.Point(500, 146);
+            this.masa14.Location = new System.Drawing.Point(438, 110);
+            this.masa14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa14.Name = "masa14";
-            this.masa14.Size = new System.Drawing.Size(116, 116);
+            this.masa14.Size = new System.Drawing.Size(102, 87);
             this.masa14.TabIndex = 13;
             this.masa14.Text = "Masa-14";
             this.masa14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -262,9 +278,10 @@
             this.masa13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa13.ImageKey = "pngwing.com (2).png";
             this.masa13.ImageList = this.ımageList1;
-            this.masa13.Location = new System.Drawing.Point(378, 146);
+            this.masa13.Location = new System.Drawing.Point(331, 110);
+            this.masa13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa13.Name = "masa13";
-            this.masa13.Size = new System.Drawing.Size(116, 116);
+            this.masa13.Size = new System.Drawing.Size(102, 87);
             this.masa13.TabIndex = 12;
             this.masa13.Text = "Masa-13";
             this.masa13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -276,9 +293,10 @@
             this.masa12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa12.ImageKey = "pngwing.com (2).png";
             this.masa12.ImageList = this.ımageList1;
-            this.masa12.Location = new System.Drawing.Point(256, 146);
+            this.masa12.Location = new System.Drawing.Point(224, 110);
+            this.masa12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa12.Name = "masa12";
-            this.masa12.Size = new System.Drawing.Size(116, 116);
+            this.masa12.Size = new System.Drawing.Size(102, 87);
             this.masa12.TabIndex = 11;
             this.masa12.Text = "Masa-12";
             this.masa12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -290,9 +308,10 @@
             this.masa11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa11.ImageKey = "pngwing.com (2).png";
             this.masa11.ImageList = this.ımageList1;
-            this.masa11.Location = new System.Drawing.Point(134, 146);
+            this.masa11.Location = new System.Drawing.Point(117, 110);
+            this.masa11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa11.Name = "masa11";
-            this.masa11.Size = new System.Drawing.Size(116, 116);
+            this.masa11.Size = new System.Drawing.Size(102, 87);
             this.masa11.TabIndex = 10;
             this.masa11.Text = "Masa-11";
             this.masa11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -304,9 +323,10 @@
             this.masa10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.masa10.ImageKey = "pngwing.com (2).png";
             this.masa10.ImageList = this.ımageList1;
-            this.masa10.Location = new System.Drawing.Point(12, 146);
+            this.masa10.Location = new System.Drawing.Point(10, 110);
+            this.masa10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.masa10.Name = "masa10";
-            this.masa10.Size = new System.Drawing.Size(116, 116);
+            this.masa10.Size = new System.Drawing.Size(102, 87);
             this.masa10.TabIndex = 9;
             this.masa10.Text = "Masa-10";
             this.masa10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -314,17 +334,19 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(1148, 12);
+            this.dateTimePicker1.Location = new System.Drawing.Point(1004, 9);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(196, 27);
+            this.dateTimePicker1.Size = new System.Drawing.Size(182, 23);
             this.dateTimePicker1.TabIndex = 18;
             // 
             // button1
             // 
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(1179, 90);
+            this.button1.Location = new System.Drawing.Point(1029, 34);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 112);
+            this.button1.Size = new System.Drawing.Size(114, 84);
             this.button1.TabIndex = 19;
             this.button1.Text = "MASA AKTİFLEŞTİR";
             this.button1.UseVisualStyleBackColor = true;
@@ -332,10 +354,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1356, 554);
+            this.ClientSize = new System.Drawing.Size(1186, 416);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.masa18);
@@ -356,6 +378,7 @@
             this.Controls.Add(this.masa3);
             this.Controls.Add(this.masa2);
             this.Controls.Add(this.masa1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "A Internet Cafe";
             this.Load += new System.EventHandler(this.Form1_Load);
