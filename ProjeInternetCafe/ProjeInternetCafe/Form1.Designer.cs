@@ -54,6 +54,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.buttonCont = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxSure = new System.Windows.Forms.TextBox();
             this.labelUcret = new System.Windows.Forms.Label();
@@ -65,6 +66,22 @@
             this.labelMasa = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.timer4 = new System.Windows.Forms.Timer(this.components);
+            this.timer5 = new System.Windows.Forms.Timer(this.components);
+            this.timer6 = new System.Windows.Forms.Timer(this.components);
+            this.timer7 = new System.Windows.Forms.Timer(this.components);
+            this.timer8 = new System.Windows.Forms.Timer(this.components);
+            this.timer9 = new System.Windows.Forms.Timer(this.components);
+            this.timer10 = new System.Windows.Forms.Timer(this.components);
+            this.timer11 = new System.Windows.Forms.Timer(this.components);
+            this.timer12 = new System.Windows.Forms.Timer(this.components);
+            this.timer13 = new System.Windows.Forms.Timer(this.components);
+            this.timer14 = new System.Windows.Forms.Timer(this.components);
+            this.timer15 = new System.Windows.Forms.Timer(this.components);
+            this.timer16 = new System.Windows.Forms.Timer(this.components);
+            this.timer17 = new System.Windows.Forms.Timer(this.components);
+            this.timer18 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -118,6 +135,7 @@
             this.masa3.Text = "Masa-3";
             this.masa3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa3.UseVisualStyleBackColor = true;
+            this.masa3.Click += new System.EventHandler(this.masa3_Click);
             // 
             // masa4
             // 
@@ -132,6 +150,7 @@
             this.masa4.Text = "Masa-4";
             this.masa4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa4.UseVisualStyleBackColor = true;
+            this.masa4.Click += new System.EventHandler(this.masa4_Click);
             // 
             // masa5
             // 
@@ -146,6 +165,7 @@
             this.masa5.Text = "Masa-5";
             this.masa5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa5.UseVisualStyleBackColor = true;
+            this.masa5.Click += new System.EventHandler(this.masa5_Click);
             // 
             // masa6
             // 
@@ -331,44 +351,48 @@
             // 
             // buttonMAc
             // 
-            this.buttonMAc.Location = new System.Drawing.Point(13, 13);
+            this.buttonMAc.Location = new System.Drawing.Point(13, 3);
             this.buttonMAc.Name = "buttonMAc";
-            this.buttonMAc.Size = new System.Drawing.Size(104, 29);
+            this.buttonMAc.Size = new System.Drawing.Size(104, 48);
             this.buttonMAc.TabIndex = 18;
-            this.buttonMAc.Text = "Masa aç";
+            this.buttonMAc.Text = "Masa Başlat";
             this.buttonMAc.UseVisualStyleBackColor = true;
             this.buttonMAc.Click += new System.EventHandler(this.buttonMAc_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(13, 48);
+            this.button1.Location = new System.Drawing.Point(13, 55);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 29);
+            this.button1.Size = new System.Drawing.Size(104, 48);
             this.button1.TabIndex = 19;
             this.button1.Text = "Masa kapa";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(13, 83);
+            this.button2.Location = new System.Drawing.Point(346, 48);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 29);
+            this.button2.Size = new System.Drawing.Size(104, 37);
             this.button2.TabIndex = 20;
             this.button2.Text = "Masa durdur";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(13, 117);
+            this.button3.Location = new System.Drawing.Point(13, 109);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(104, 29);
+            this.button3.Size = new System.Drawing.Size(104, 48);
             this.button3.TabIndex = 21;
             this.button3.Text = "Süre ekle";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel1.Controls.Add(this.buttonCont);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.textBoxSure);
             this.panel1.Controls.Add(this.labelUcret);
@@ -382,10 +406,20 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.labelMasa);
-            this.panel1.Location = new System.Drawing.Point(-2, 285);
+            this.panel1.Location = new System.Drawing.Point(-2, 269);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1242, 165);
+            this.panel1.Size = new System.Drawing.Size(1242, 181);
             this.panel1.TabIndex = 22;
+            // 
+            // buttonCont
+            // 
+            this.buttonCont.Location = new System.Drawing.Point(456, 48);
+            this.buttonCont.Name = "buttonCont";
+            this.buttonCont.Size = new System.Drawing.Size(104, 37);
+            this.buttonCont.TabIndex = 26;
+            this.buttonCont.Text = "Masa devam";
+            this.buttonCont.UseVisualStyleBackColor = true;
+            this.buttonCont.Click += new System.EventHandler(this.buttonCont_Click);
             // 
             // label4
             // 
@@ -398,7 +432,7 @@
             // 
             // textBoxSure
             // 
-            this.textBoxSure.Location = new System.Drawing.Point(437, 14);
+            this.textBoxSure.Location = new System.Drawing.Point(437, 13);
             this.textBoxSure.Name = "textBoxSure";
             this.textBoxSure.Size = new System.Drawing.Size(125, 27);
             this.textBoxSure.TabIndex = 24;
@@ -451,11 +485,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(133, 52);
+            this.label1.Location = new System.Drawing.Point(118, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 20);
+            this.label1.Size = new System.Drawing.Size(94, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Kalan süre:";
+            this.label1.Text = "Açıldığı süre:";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // labelMasa
@@ -476,12 +510,25 @@
             // 
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // timer3
+            // 
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
+            // timer4
+            // 
+            this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
+            // 
+            // timer5
+            // 
+            this.timer5.Tick += new System.EventHandler(this.timer5_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(1238, 449);
+            this.Controls.Add(this.masa2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.masa18);
             this.Controls.Add(this.masa17);
@@ -499,7 +546,6 @@
             this.Controls.Add(this.masa5);
             this.Controls.Add(this.masa4);
             this.Controls.Add(this.masa3);
-            this.Controls.Add(this.masa2);
             this.Controls.Add(this.masa1);
             this.Name = "Form1";
             this.Text = "A Internet Cafe";
@@ -548,5 +594,22 @@
         private System.Windows.Forms.Timer timer2;
         private Label label4;
         private TextBox textBoxSure;
+        private Button buttonCont;
+        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Timer timer4;
+        private System.Windows.Forms.Timer timer5;
+        private System.Windows.Forms.Timer timer6;
+        private System.Windows.Forms.Timer timer7;
+        private System.Windows.Forms.Timer timer8;
+        private System.Windows.Forms.Timer timer9;
+        private System.Windows.Forms.Timer timer10;
+        private System.Windows.Forms.Timer timer11;
+        private System.Windows.Forms.Timer timer12;
+        private System.Windows.Forms.Timer timer13;
+        private System.Windows.Forms.Timer timer14;
+        private System.Windows.Forms.Timer timer15;
+        private System.Windows.Forms.Timer timer16;
+        private System.Windows.Forms.Timer timer17;
+        private System.Windows.Forms.Timer timer18;
     }
 }
