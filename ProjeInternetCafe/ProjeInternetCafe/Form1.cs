@@ -1,105 +1,449 @@
+using System.Windows.Forms;
+
 namespace ProjeInternetCafe
 {
     public partial class Form1 : Form
     {
- double ucr1 = 1.5, ucr2 = 1.5, ucr3 = 1.5, ucr4 = 1.5, ucr5 = 1.5, ucr6 = 1.5, ucr7 = 1.5, ucr8 = 1.5, ucr9 = 1.5, ucr10 = 1.5, ucr11 = 1.5, ucr12 = 1.5, ucr13 = 1.5, ucr14 = 1.5, ucr15 = 1.5, ucr16 = 1.5, ucr17 = 1.5, ucr18 = 1.5;
 
-         int dkm1 = 0, dkm2 = 0, dkm3 = 0, dkm4 = 0, dkm5 = 0, dkm6 = 0, dkm7 = 0, dkm8 = 0, dkm9 = 0, dkm10 = 0, dkm11 = 0, dkm12 = 0, dkm13 = 0, dkm14 = 0, dkm15 = 0, dkm16 = 0, dkm17 = 0, dkm18 = 0;
- int sr2 = 0, sr1 = 0, sr3 = 0, sr4 = 0, sr5 = 0, sr6 = 0, sr7 = 0, sr8 = 0, sr9 = 0, sr10 = 0, sr11 = 0, sr12 = 0, sr13 = 0, sr14 = 0, sr15 = 0, sr16 = 0, sr17 = 0, sr18 = 0;
+        double ucr1 = 1.5, ucr2 = 1.5, ucr3 = 1.5, ucr4 = 1.5, ucr5 = 1.5, ucr6 = 1.5, ucr7 = 1.5, ucr8 = 1.5, ucr9 = 1.5, ucr10 = 1.5, ucr11 = 1.5, ucr12 = 1.5, ucr13 = 1.5, ucr14 = 1.5, ucr15 = 1.5, ucr16 = 1.5, ucr17 = 1.5, ucr18 = 1.5;
+        int dkm1 = 0, dkm2 = 0, dkm3 = 0, dkm4 = 0, dkm5 = 0, dkm6 = 0, dkm7 = 0, dkm8 = 0, dkm9 = 0, dkm10 = 0, dkm11 = 0, dkm12 = 0, dkm13 = 0, dkm14 = 0, dkm15 = 0, dkm16 = 0, dkm17 = 0, dkm18 = 0;
+
+        int sr2 = 0, sr1 = 0, sr3 = 0, sr4 = 0, sr5 = 0, sr6 = 0, sr7 = 0, sr8 = 0, sr9 = 0, sr10 = 0, sr11 = 0, sr12 = 0, sr13 = 0, sr14 = 0, sr15 = 0, sr16 = 0, sr17 = 0, sr18 = 0;
+        private void timer6_Tick(object sender, EventArgs e)
+        {
+            dkm6++;
+            if (string.Compare(labelMasa.Text, "Masa-6")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm6);
+                labelKal.Text= Convert.ToString(sr6);
+                labelUcret.Text= Convert.ToString(ucr6)+ "tl";
+            }
+            if (dkm6==0 || dkm6%15 ==0)
+                ucr6+=1.5;
+            if (dkm6 >= sr6) timer6.Stop();
+        }
+
+        private void timer7_Tick(object sender, EventArgs e)
+        {
+            dkm7++;
+            if (string.Compare(labelMasa.Text, "Masa-7")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm7);
+                labelKal.Text= Convert.ToString(sr7);
+                labelUcret.Text= Convert.ToString(ucr7)+ "tl";
+            }
+            if (dkm7==0 || dkm7%15 ==0)
+                ucr7+=1.5;
+            if (dkm7 >= sr7) timer7.Stop();
+        }
+
+        private void timer8_Tick(object sender, EventArgs e)
+        {
+            dkm8++;
+            if (string.Compare(labelMasa.Text, "Masa-8")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm8);
+                labelKal.Text= Convert.ToString(sr8);
+                labelUcret.Text= Convert.ToString(ucr8)+ "tl";
+            }
+            if (dkm8==0 || dkm8%15 ==0)
+                ucr1+=1.5;
+            if (dkm8 >= sr8) timer8.Stop();
+        }
+
+        private void timer9_Tick(object sender, EventArgs e)
+        {
+            dkm9++;
+            if (string.Compare(labelMasa.Text, "Masa-9")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm9);
+                labelKal.Text= Convert.ToString(sr9);
+                labelUcret.Text= Convert.ToString(ucr9)+ "tl";
+            }
+            if (dkm9==0 || dkm9%15 ==0)
+                ucr9+=1.5;
+            if (dkm9 >= sr9) timer9.Stop();
+        }
+
+        private void timer10_Tick(object sender, EventArgs e)
+        {
+            dkm10++;
+            if (string.Compare(labelMasa.Text, "Masa-10")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm10);
+                labelKal.Text= Convert.ToString(sr10);
+                labelUcret.Text= Convert.ToString(ucr10)+ "tl";
+            }
+            if (dkm10==0 || dkm10%15 ==0)
+                ucr10+=1.5;
+            if (dkm10 >= sr10) timer10.Stop();
+        }
+
+        private void timer11_Tick(object sender, EventArgs e)
+        {
+            dkm11++;
+            if (string.Compare(labelMasa.Text, "Masa-11")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm11);
+                labelKal.Text= Convert.ToString(sr11);
+                labelUcret.Text= Convert.ToString(ucr11)+ "tl";
+            }
+            if (dkm11==0 || dkm11%15 ==0)
+                ucr11+=1.5;
+            if (dkm11 >= sr11) timer11.Stop();
+        }
+
+        private void timer12_Tick(object sender, EventArgs e)
+        {
+            dkm12++;
+            if (string.Compare(labelMasa.Text, "Masa-12")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm12);
+                labelKal.Text= Convert.ToString(sr12);
+                labelUcret.Text= Convert.ToString(ucr12)+ "tl";
+            }
+            if (dkm12==0 || dkm12%15 ==0)
+                ucr12+=1.5;
+            if (dkm12 >= sr12) timer12.Stop();
+        }
+
+        private void timer13_Tick(object sender, EventArgs e)
+        {
+            dkm13++;
+            if (string.Compare(labelMasa.Text, "Masa-13")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm13);
+                labelKal.Text= Convert.ToString(sr13);
+                labelUcret.Text= Convert.ToString(ucr13)+ "tl";
+            }
+            if (dkm13==0 || dkm13%15 ==0)
+                ucr13+=1.5;
+            if (dkm13 >= sr13) timer13.Stop();
+        }
+
+        private void timer14_Tick(object sender, EventArgs e)
+        {
+            dkm14++;
+            if (string.Compare(labelMasa.Text, "Masa-14")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm14);
+                labelKal.Text= Convert.ToString(sr14);
+                labelUcret.Text= Convert.ToString(ucr14)+ "tl";
+            }
+            if (dkm14==0 || dkm14%15 ==0)
+                ucr14+=1.5;
+            if (dkm14 >= sr14) timer14.Stop();
+        }
+
+        private void timer15_Tick(object sender, EventArgs e)
+        {
+            dkm15++;
+            if (string.Compare(labelMasa.Text, "Masa-15")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm15);
+                labelKal.Text= Convert.ToString(sr15);
+                labelUcret.Text= Convert.ToString(ucr15)+ "tl";
+            }
+            if (dkm15==0 || dkm15%15 ==0)
+                ucr15+=1.5;
+            if (dkm15 >= sr15) timer15.Stop();
+        }
+
+        private void timer16_Tick(object sender, EventArgs e)
+        {
+            dkm16++;
+            if (string.Compare(labelMasa.Text, "Masa-16")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm16);
+                labelKal.Text= Convert.ToString(sr16);
+                labelUcret.Text= Convert.ToString(ucr16)+ "tl";
+            }
+            if (dkm16==0 || dkm16%15 ==0)
+                ucr16+=1.5;
+            if (dkm16 >= sr16) timer16.Stop();
+        }
+
+        private void timer17_Tick(object sender, EventArgs e)
+        {
+            dkm17++;
+            if (string.Compare(labelMasa.Text, "Masa-17")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm17);
+                labelKal.Text= Convert.ToString(sr17);
+                labelUcret.Text= Convert.ToString(ucr17)+ "tl";
+            }
+            if (dkm17==0 || dkm17%15 ==0)
+                ucr17+=1.5;
+            if (dkm17 >= sr17) timer17.Stop();
+        }
+
+        private void timer18_Tick(object sender, EventArgs e)
+        {
+            dkm18++;
+            if (string.Compare(labelMasa.Text, "Masa-18")==0)
+            {
+                labelGec.Text= Convert.ToString(dkm18);
+                labelKal.Text= Convert.ToString(sr18);
+                labelUcret.Text= Convert.ToString(ucr18)+ "tl";
+            }
+            if (dkm18==0 || dkm18%15 ==0)
+                ucr18+=1.5;
+            if (dkm18 >= sr18) timer1.Stop();
+        }
+
+        private void masa18_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-18";
+            if (dkm18==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm18);
+            labelKal.Text=Convert.ToString(sr18);
+            if (dkm18==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr18);
+            if (dkm18==0 || dkm18==sr18) labelUcret.Text=Convert.ToString(ucr18-1.5);
+            if (dkm18 >= sr18) labelKal.Text= "0";
+        }
+
+        private void masa17_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-17";
+            if (dkm17==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm17);
+            labelKal.Text=Convert.ToString(sr17);
+            if (dkm17==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr17);
+            if (dkm17==0 || dkm17==sr17) labelUcret.Text=Convert.ToString(ucr17-1.5);
+            if (dkm17 >= sr17) labelKal.Text= "0";
+        }
+
+        private void masa16_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-16";
+            if (dkm16==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm16);
+            labelKal.Text=Convert.ToString(sr16);
+            if (dkm16==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr16);
+            if (dkm16==0 || dkm16==sr16) labelUcret.Text=Convert.ToString(ucr16-1.5);
+            if (dkm16 >= sr16) labelKal.Text= "0";
+        }
+
+        private void masa15_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-15";
+            if (dkm15==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm15);
+            labelKal.Text=Convert.ToString(sr15);
+            if (dkm15==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr15);
+            if (dkm15==0 || dkm15==sr15) labelUcret.Text=Convert.ToString(ucr15-1.5);
+            if (dkm15 >= sr15) labelKal.Text= "0";
+        }
+
+        private void masa14_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-14";
+            if (dkm14==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm14);
+            labelKal.Text=Convert.ToString(sr14);
+            if (dkm14==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr14);
+            if (dkm14==0 || dkm14==sr14) labelUcret.Text=Convert.ToString(ucr14-1.5);
+            if (dkm14 >= sr14) labelKal.Text= "0";
+        }
+
+        private void masa13_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-13";
+            if (dkm13==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm13);
+            labelKal.Text=Convert.ToString(sr13);
+            if (dkm13==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr13);
+            if (dkm13==0 || dkm13==sr13) labelUcret.Text=Convert.ToString(ucr13-1.5);
+            if (dkm13 >= sr13) labelKal.Text= "0";
+        }
+
+        private void masa12_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-12";
+            if (dkm12==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm12);
+            labelKal.Text=Convert.ToString(sr12);
+            if (dkm12==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr12);
+            if (dkm12==0 || dkm12==sr12) labelUcret.Text=Convert.ToString(ucr12-1.5);
+            if (dkm12 >= sr12) labelKal.Text= "0";
+        }
+
+        private void masa11_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-11";
+            if (dkm11==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm11);
+            labelKal.Text=Convert.ToString(sr11);
+            if (dkm11==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr11);
+            if (dkm11==0 || dkm11==sr11) labelUcret.Text=Convert.ToString(ucr11-1.5);
+            if (dkm11 >= sr11) labelKal.Text= "0";
+        }
+
+        private void masa10_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-10";
+            if (dkm10==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm10);
+            labelKal.Text=Convert.ToString(sr10);
+            if (dkm10==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr10);
+            if (dkm10==0 || dkm10==sr10) labelUcret.Text=Convert.ToString(ucr10-1.5);
+            if (dkm10 >= sr10) labelKal.Text= "0";
+        }
+
+        private void masa9_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-9";
+            if (dkm9==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm9);
+            labelKal.Text=Convert.ToString(sr9);
+            if (dkm9==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr9);
+            if (dkm9==0 || dkm9==sr9) labelUcret.Text=Convert.ToString(ucr9-1.5);
+            if (dkm9 >= sr9) labelKal.Text= "0";
+        }
+
+        private void masa8_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-8";
+            if (dkm8==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm8);
+            labelKal.Text=Convert.ToString(sr8);
+            if (dkm8==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr8);
+            if (dkm8==0 || dkm8==sr8) labelUcret.Text=Convert.ToString(ucr8-1.5);
+            if (dkm8 >= sr8) labelKal.Text= "0";
+        }
+
+        private void masa7_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-7";
+            if (dkm7==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm7);
+            labelKal.Text=Convert.ToString(sr7);
+            if (dkm7==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr7);
+            if (dkm7==0 || dkm7==sr7) labelUcret.Text=Convert.ToString(ucr7-1.5);
+            if (dkm7 >= sr7) labelKal.Text= "0";
+        }
+
+        private void masa6_Click(object sender, EventArgs e)
+        {
+            labelMasa.Text="Masa-6";
+            if (dkm6==0) labelGec.Text="0";
+            labelGec.Text=Convert.ToString(dkm6);
+            labelKal.Text=Convert.ToString(sr6);
+            if (dkm6==0) labelKal.Text="0";
+            labelUcret.Text=Convert.ToString(ucr6);
+            if (dkm6==0 || dkm6==sr6) labelUcret.Text=Convert.ToString(ucr6-1.5);
+            if (dkm6 >= sr6) labelKal.Text= "0";
+        }
+
+
         private void buttonCont_Click(object sender, EventArgs e)
         {
             if (string.Compare(labelMasa.Text, "Masa-1")==0)
             {
-                if (dkm1 != 0)
+                if (dkm1 != 0) //normalde basýldýðýnda timer baþlamasýn diye
                     timer1.Start();
-                else if (string.Compare(labelMasa.Text, "Masa-2")==0)
-                {
-                    if (dkm2 != 0)
-                        timer2.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-3")==0)
-                {
-                    if (dkm3 != 0)
-                        timer3.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-4")==0)
-                {
-                    if (dkm4 != 0)
-                        timer4.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-5")==0)
-                {
-                    if (dkm5 != 0)
-                        timer5.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-6")==0)
-                {
-                    if (dkm6 != 0)
-                        timer6.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-7")==0)
-                {
-                    if (dkm7 != 0)
-                        timer7.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-8")==0)
-                {
-                    if (dkm8 != 0)
-                        timer8.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-9")==0)
-                {
-                    if (dkm9 != 0)
-                        timer9.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-10")==0)
-                {
-                    if (dkm10 != 0)
-                        timer10.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-11")==0)
-                {
-                    if (dkm11 != 0)
-                        timer11.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-12")==0)
-                {
-                    if (dkm12 != 0)
-                        timer12.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-13")==0)
-                {
-                    if (dkm13 != 0)
-                        timer13.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-14")==0)
-                {
-                    if (dkm14 != 0)
-                        timer14.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-15")==0)
-                {
-                    if (dkm15 != 0)
-                        timer15.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-16")==0)
-                {
-                    if (dkm16 != 0)
-                        timer16.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-17")==0)
-                {
-                    if (dkm17 != 0)
-                        timer17.Start();
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-18")==0)
-                {
-                    if (dkm18 != 0)
-                        timer18.Start();
-                }
-                else;
             }
+
+            else if (string.Compare(labelMasa.Text, "Masa-2")==0)
+            {
+                if (dkm2 != 0)
+                    timer2.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-3")==0)
+            {
+                if (dkm3 != 0)
+                    timer3.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-4")==0)
+            {
+                if (dkm4 != 0)
+                    timer4.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-5")==0)
+            {
+                if (dkm5 != 0)
+                    timer5.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-6")==0)
+            {
+                if (dkm6 != 0)
+                    timer6.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-7")==0)
+            {
+                if (dkm7 != 0)
+                    timer7.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-8")==0)
+            {
+                if (dkm8 != 0)
+                    timer8.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-9")==0)
+            {
+                if (dkm9 != 0)
+                    timer9.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-10")==0)
+            {
+                if (dkm10 != 0)
+                    timer10.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-11")==0)
+            {
+                if (dkm11 != 0)
+                    timer11.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-12")==0)
+            {
+                if (dkm12 != 0)
+                    timer12.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-13")==0)
+            {
+                if (dkm13 != 0)
+                    timer13.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-14")==0)
+            {
+                if (dkm14 != 0)
+                    timer14.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-15")==0)
+            {
+                if (dkm15 != 0)
+                    timer15.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-16")==0)
+            {
+                if (dkm16 != 0)
+                    timer16.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-17")==0)
+            {
+                if (dkm17 != 0)
+                    timer17.Start();
+            }
+            else if (string.Compare(labelMasa.Text, "Masa-18")==0)
+            {
+                if (dkm18 != 0)
+                    timer18.Start();
+            }
+            else;
         }
+      
 
 
 
@@ -107,7 +451,7 @@ namespace ProjeInternetCafe
             {
                 if (string.Compare(labelMasa.Text, "Masa-1")==0)
                 {
-                    sr1=Convert.ToInt32(textBoxSure.Text)+sr1;
+                    sr1=Convert.ToInt32(textBoxSure.Text)+sr1;//textboxtaki sayýyý eklemek için
                 }
                 else if (string.Compare(labelMasa.Text, "Masa-2")==0)
                 {
@@ -284,13 +628,13 @@ namespace ProjeInternetCafe
         private void masa1_Click(object sender, EventArgs e)
         {
             labelMasa.Text="Masa-1";
-            if (dkm1==0) labelGec.Text="0";
+            if (dkm1==0) labelGec.Text="0"; //timer kapandýðýnda 0 yazmak için
             labelGec.Text=Convert.ToString(dkm1);
             labelKal.Text=Convert.ToString(sr1);
             if (dkm1==0) labelKal.Text="0";
-                labelUcret.Text=Convert.ToString(ucr1);
-            if (dkm1==0 || dkm1==sr1) labelUcret.Text=Convert.ToString(ucr1-1.5);
-            if (dkm1 >= sr1) labelKal.Text= "0";
+            labelUcret.Text=Convert.ToString(ucr1);
+            if (dkm1==0 || dkm1==sr1) labelUcret.Text=Convert.ToString(ucr1-1.5);//ücreti düzgün yazdýrmak için "masalar 1 saat açýldýysa 6 tl"
+            if (dkm1 >= sr1) labelKal.Text= "0";//kalan süreyi masa kapandýðýnda yazdýrmak için
 
 
 
@@ -533,7 +877,7 @@ namespace ProjeInternetCafe
         private void buttonMAc_Click(object sender, EventArgs e)
         {
             {
-                if (string.Compare(labelMasa.Text, "Masa-1")==0)
+                if (string.Compare(labelMasa.Text, "Masa-1")==0)// hangi masa timer'ý baþlayacak onu görmek için
                 {
                     sr1 = Convert.ToInt32(textBoxSure.Text);
                     timer1.Start();

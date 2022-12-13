@@ -180,6 +180,7 @@
             this.masa6.Text = "Masa-6";
             this.masa6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa6.UseVisualStyleBackColor = true;
+            this.masa6.Click += new System.EventHandler(this.masa6_Click);
             // 
             // masa7
             // 
@@ -194,6 +195,7 @@
             this.masa7.Text = "Masa-7";
             this.masa7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa7.UseVisualStyleBackColor = true;
+            this.masa7.Click += new System.EventHandler(this.masa7_Click);
             // 
             // masa8
             // 
@@ -208,6 +210,7 @@
             this.masa8.Text = "Masa-8";
             this.masa8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa8.UseVisualStyleBackColor = true;
+            this.masa8.Click += new System.EventHandler(this.masa8_Click);
             // 
             // masa9
             // 
@@ -222,6 +225,7 @@
             this.masa9.Text = "Masa-9";
             this.masa9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa9.UseVisualStyleBackColor = true;
+            this.masa9.Click += new System.EventHandler(this.masa9_Click);
             // 
             // masa18
             // 
@@ -236,6 +240,7 @@
             this.masa18.Text = "Masa-18";
             this.masa18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa18.UseVisualStyleBackColor = true;
+            this.masa18.Click += new System.EventHandler(this.masa18_Click);
             // 
             // masa17
             // 
@@ -250,6 +255,7 @@
             this.masa17.Text = "Masa-17";
             this.masa17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa17.UseVisualStyleBackColor = true;
+            this.masa17.Click += new System.EventHandler(this.masa17_Click);
             // 
             // masa16
             // 
@@ -264,6 +270,7 @@
             this.masa16.Text = "Masa-16";
             this.masa16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa16.UseVisualStyleBackColor = true;
+            this.masa16.Click += new System.EventHandler(this.masa16_Click);
             // 
             // masa15
             // 
@@ -278,6 +285,7 @@
             this.masa15.Text = "Masa-15";
             this.masa15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa15.UseVisualStyleBackColor = true;
+            this.masa15.Click += new System.EventHandler(this.masa15_Click);
             // 
             // masa14
             // 
@@ -292,6 +300,7 @@
             this.masa14.Text = "Masa-14";
             this.masa14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa14.UseVisualStyleBackColor = true;
+            this.masa14.Click += new System.EventHandler(this.masa14_Click);
             // 
             // masa13
             // 
@@ -306,6 +315,7 @@
             this.masa13.Text = "Masa-13";
             this.masa13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa13.UseVisualStyleBackColor = true;
+            this.masa13.Click += new System.EventHandler(this.masa13_Click);
             // 
             // masa12
             // 
@@ -320,6 +330,7 @@
             this.masa12.Text = "Masa-12";
             this.masa12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa12.UseVisualStyleBackColor = true;
+            this.masa12.Click += new System.EventHandler(this.masa12_Click);
             // 
             // masa11
             // 
@@ -334,6 +345,7 @@
             this.masa11.Text = "Masa-11";
             this.masa11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa11.UseVisualStyleBackColor = true;
+            this.masa11.Click += new System.EventHandler(this.masa11_Click);
             // 
             // masa10
             // 
@@ -348,6 +360,7 @@
             this.masa10.Text = "Masa-10";
             this.masa10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.masa10.UseVisualStyleBackColor = true;
+            this.masa10.Click += new System.EventHandler(this.masa10_Click);
             // 
             // buttonMAc
             // 
@@ -521,6 +534,58 @@
             // timer5
             // 
             this.timer5.Tick += new System.EventHandler(this.timer5_Tick);
+            // 
+            // timer6
+            // 
+            this.timer6.Tick += new System.EventHandler(this.timer6_Tick);
+            // 
+            // timer7
+            // 
+            this.timer7.Tick += new System.EventHandler(this.timer7_Tick);
+            // 
+            // timer8
+            // 
+            this.timer8.Tick += new System.EventHandler(this.timer8_Tick);
+            // 
+            // timer9
+            // 
+            this.timer9.Tick += new System.EventHandler(this.timer9_Tick);
+            // 
+            // timer10
+            // 
+            this.timer10.Tick += new System.EventHandler(this.timer10_Tick);
+            // 
+            // timer11
+            // 
+            this.timer11.Tick += new System.EventHandler(this.timer11_Tick);
+            // 
+            // timer12
+            // 
+            this.timer12.Tick += new System.EventHandler(this.timer12_Tick);
+            // 
+            // timer13
+            // 
+            this.timer13.Tick += new System.EventHandler(this.timer13_Tick);
+            // 
+            // timer14
+            // 
+            this.timer14.Tick += new System.EventHandler(this.timer14_Tick);
+            // 
+            // timer15
+            // 
+            this.timer15.Tick += new System.EventHandler(this.timer15_Tick);
+            // 
+            // timer16
+            // 
+            this.timer16.Tick += new System.EventHandler(this.timer16_Tick);
+            // 
+            // timer17
+            // 
+            this.timer17.Tick += new System.EventHandler(this.timer17_Tick);
+            // 
+            // timer18
+            // 
+            this.timer18.Tick += new System.EventHandler(this.timer18_Tick);
             // 
             // Form1
             // 
