@@ -358,93 +358,93 @@ namespace ProjeInternetCafe
         {
             if (string.Compare(labelMasa.Text, "Masa-1")==0)
             {
-                if (dkm1 != 0) //normalde basýldýðýnda timer baþlamasýn diye
+                if (dkm1 != 0 && dkm1!=sr1) //normalde basýldýðýnda timer baþlamasýn diye
                     timer1.Start();
             }
 
             else if (string.Compare(labelMasa.Text, "Masa-2")==0)
             {
-                if (dkm2 != 0)
+                if (dkm2 != 0&& dkm2!=sr2)
                     timer2.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-3")==0)
             {
-                if (dkm3 != 0)
+                if (dkm3 != 0&& dkm3!=sr3)
                     timer3.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-4")==0)
             {
-                if (dkm4 != 0)
+                if (dkm4 != 0&& dkm4!=sr4)
                     timer4.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-5")==0)
             {
-                if (dkm5 != 0)
+                if (dkm5 != 0&& dkm5!=sr5)
                     timer5.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-6")==0)
             {
-                if (dkm6 != 0)
+                if (dkm6 != 0&& dkm6!=sr6)
                     timer6.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-7")==0)
             {
-                if (dkm7 != 0)
+                if (dkm7 != 0&& dkm7!=sr7)
                     timer7.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-8")==0)
             {
-                if (dkm8 != 0)
+                if (dkm8 != 0&& dkm8!=sr8)
                     timer8.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-9")==0)
             {
-                if (dkm9 != 0)
+                if (dkm9 != 0&& dkm9!=sr9)
                     timer9.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-10")==0)
             {
-                if (dkm10 != 0)
+                if (dkm10 != 0&& dkm10!=sr10)
                     timer10.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-11")==0)
             {
-                if (dkm11 != 0)
+                if (dkm11 != 0&& dkm11!=sr11)
                     timer11.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-12")==0)
             {
-                if (dkm12 != 0)
+                if (dkm12 != 0&& dkm12!=sr12)
                     timer12.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-13")==0)
             {
-                if (dkm13 != 0)
+                if (dkm13 != 0&& dkm13!=sr13)
                     timer13.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-14")==0)
             {
-                if (dkm14 != 0)
+                if (dkm14 != 0&& dkm14!=sr14)
                     timer14.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-15")==0)
             {
-                if (dkm15 != 0)
+                if (dkm15 != 0&& dkm15!=sr15)
                     timer15.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-16")==0)
             {
-                if (dkm16 != 0)
+                if (dkm16 != 0&& dkm16!=sr16)
                     timer16.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-17")==0)
             {
-                if (dkm17 != 0)
+                if (dkm17 != 0&& dkm17!=sr17)
                     timer17.Start();
             }
             else if (string.Compare(labelMasa.Text, "Masa-18")==0)
             {
-                if (dkm18 != 0)
+                if (dkm18 != 0&& dkm18!=sr18)
                     timer18.Start();
             }
             else;
