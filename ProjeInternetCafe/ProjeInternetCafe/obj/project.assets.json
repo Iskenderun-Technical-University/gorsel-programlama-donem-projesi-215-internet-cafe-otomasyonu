@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Ahmet\\.nuget\\packages\\": {}
+    "C:\\Users\\Eren\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ahmet\\Documents\\GitHub\\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\\ProjeInternetCafe\\ProjeInternetCafe\\ProjeInternetCafe.csproj",
+      "projectUniqueName": "C:\\Users\\Eren\\Documents\\GitHub\\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\\ProjeInternetCafe\\ProjeInternetCafe\\ProjeInternetCafe.csproj",
       "projectName": "ProjeInternetCafe",
-      "projectPath": "C:\\Users\\Ahmet\\Documents\\GitHub\\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\\ProjeInternetCafe\\ProjeInternetCafe\\ProjeInternetCafe.csproj",
-      "packagesPath": "C:\\Users\\Ahmet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ahmet\\Documents\\GitHub\\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\\ProjeInternetCafe\\ProjeInternetCafe\\obj\\",
+      "projectPath": "C:\\Users\\Eren\\Documents\\GitHub\\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\\ProjeInternetCafe\\ProjeInternetCafe\\ProjeInternetCafe.csproj",
+      "packagesPath": "C:\\Users\\Eren\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eren\\Documents\\GitHub\\gorsel-programlama-donem-projesi-215-internet-cafe-otomasyonu\\ProjeInternetCafe\\ProjeInternetCafe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Eren\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

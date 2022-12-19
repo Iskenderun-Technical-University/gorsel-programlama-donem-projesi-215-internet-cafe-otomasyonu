@@ -9,6 +9,12 @@ namespace ProjeInternetCafe
         int dkm1 = 0, dkm2 = 0, dkm3 = 0, dkm4 = 0, dkm5 = 0, dkm6 = 0, dkm7 = 0, dkm8 = 0, dkm9 = 0, dkm10 = 0, dkm11 = 0, dkm12 = 0, dkm13 = 0, dkm14 = 0, dkm15 = 0, dkm16 = 0, dkm17 = 0, dkm18 = 0;
 
         int sr2 = 0, sr1 = 0, sr3 = 0, sr4 = 0, sr5 = 0, sr6 = 0, sr7 = 0, sr8 = 0, sr9 = 0, sr10 = 0, sr11 = 0, sr12 = 0, sr13 = 0, sr14 = 0, sr15 = 0, sr16 = 0, sr17 = 0, sr18 = 0;
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void timer6_Tick(object sender, EventArgs e)
         {
             dkm6++;
@@ -877,134 +883,137 @@ namespace ProjeInternetCafe
         private void buttonMAc_Click(object sender, EventArgs e)
         {
             {
-                if (string.Compare(labelMasa.Text, "Masa-1")==0)// hangi masa timer'ý baþlayacak onu görmek için
-                {
-                    sr1 = Convert.ToInt32(textBoxSure.Text);
-                    timer1.Start();
-                    dkm1=0;
-                    ucr1 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-2")==0)
-                {
-                    sr2 = Convert.ToInt32(textBoxSure.Text);
-                    timer2.Start();
-                    dkm2=0;
-                    ucr2 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-3")==0)
-                {
-                    sr3 = Convert.ToInt32(textBoxSure.Text);
-                    timer3.Start();
-                    dkm3=0;
-                    ucr3 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-4")==0)
-                {
-                    sr4 = Convert.ToInt32(textBoxSure.Text);
-                    timer4.Start();
-                    dkm4=0;
-                    ucr4 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-5")==0)
-                {
-                    sr5 = Convert.ToInt32(textBoxSure.Text);
-                    timer5.Start();
-                    dkm5=0;
-                    ucr5 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-6")==0)
-                {
-                    sr6 = Convert.ToInt32(textBoxSure.Text);
-                    timer6.Start();
-                    dkm6=0;
-                    ucr6 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-7")==0)
-                {
-                    sr7 = Convert.ToInt32(textBoxSure.Text);
-                    timer7.Start();
-                    dkm7=0;
-                    ucr7 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-8")==0)
-                {
-                    sr8 = Convert.ToInt32(textBoxSure.Text);
-                    timer8.Start();
-                    dkm8=0;
-                    ucr8 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-9")==0)
-                {
-                    sr9 = Convert.ToInt32(textBoxSure.Text);
-                    timer9.Start();
-                    dkm9=0;
-                    ucr9 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-10")==0)
-                {
-                    sr10 = Convert.ToInt32(textBoxSure.Text);
-                    timer10.Start();
-                    dkm10=0;
-                    ucr10 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-11")==0)
-                {
-                    sr11 = Convert.ToInt32(textBoxSure.Text);
-                    timer11.Start();
-                    dkm11=0;
-                    ucr11 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-12")==0)
-                {
-                    sr12 = Convert.ToInt32(textBoxSure.Text);
-                    timer12.Start();
-                    dkm12=0;
-                    ucr12 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-13")==0)
-                {
-                    sr13 = Convert.ToInt32(textBoxSure.Text);
-                    timer13.Start();
-                    dkm13=0;
-                    ucr13 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-14")==0)
-                {
-                    sr14 = Convert.ToInt32(textBoxSure.Text);
-                    timer14.Start();
-                    dkm14=0;
-                    ucr14 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-15")==0)
-                {
-                    sr15 = Convert.ToInt32(textBoxSure.Text);
-                    timer15.Start();
-                    dkm15=0;
-                    ucr15 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-16")==0)
-                {
-                    sr16 = Convert.ToInt32(textBoxSure.Text);
-                    timer16.Start();
-                    dkm16=0;
-                    ucr16 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-17")==0)
-                {
-                    sr17 = Convert.ToInt32(textBoxSure.Text);
-                    timer17.Start();
-                    dkm17=0;
-                    ucr17 = 1.5;
-                }
-                else if (string.Compare(labelMasa.Text, "Masa-18")==0)
-                {
-                    sr18 = Convert.ToInt32(textBoxSure.Text);
-                    timer18.Start();
-                    dkm18=0;
-                    ucr18 = 1.5;
-                }
-                else;
+                if (string.Compare(textBoxSure.Text, "") == 1) // TextBox boþ ise çalýþmamasýný saðlar
 
+                {
+                    if (string.Compare(labelMasa.Text, "Masa-1") == 0)// hangi masa timer'ý baþlayacak onu görmek için
+                    {
+                        sr1 = Convert.ToInt32(textBoxSure.Text);
+                        timer1.Start();
+                        dkm1 = 0;
+                        ucr1 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-2") == 0)
+                    {
+                        sr2 = Convert.ToInt32(textBoxSure.Text);
+                        timer2.Start();
+                        dkm2 = 0;
+                        ucr2 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-3") == 0)
+                    {
+                        sr3 = Convert.ToInt32(textBoxSure.Text);
+                        timer3.Start();
+                        dkm3 = 0;
+                        ucr3 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-4") == 0)
+                    {
+                        sr4 = Convert.ToInt32(textBoxSure.Text);
+                        timer4.Start();
+                        dkm4 = 0;
+                        ucr4 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-5") == 0)
+                    {
+                        sr5 = Convert.ToInt32(textBoxSure.Text);
+                        timer5.Start();
+                        dkm5 = 0;
+                        ucr5 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-6") == 0)
+                    {
+                        sr6 = Convert.ToInt32(textBoxSure.Text);
+                        timer6.Start();
+                        dkm6 = 0;
+                        ucr6 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-7") == 0)
+                    {
+                        sr7 = Convert.ToInt32(textBoxSure.Text);
+                        timer7.Start();
+                        dkm7 = 0;
+                        ucr7 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-8") == 0)
+                    {
+                        sr8 = Convert.ToInt32(textBoxSure.Text);
+                        timer8.Start();
+                        dkm8 = 0;
+                        ucr8 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-9") == 0)
+                    {
+                        sr9 = Convert.ToInt32(textBoxSure.Text);
+                        timer9.Start();
+                        dkm9 = 0;
+                        ucr9 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-10") == 0)
+                    {
+                        sr10 = Convert.ToInt32(textBoxSure.Text);
+                        timer10.Start();
+                        dkm10 = 0;
+                        ucr10 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-11") == 0)
+                    {
+                        sr11 = Convert.ToInt32(textBoxSure.Text);
+                        timer11.Start();
+                        dkm11 = 0;
+                        ucr11 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-12") == 0)
+                    {
+                        sr12 = Convert.ToInt32(textBoxSure.Text);
+                        timer12.Start();
+                        dkm12 = 0;
+                        ucr12 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-13") == 0)
+                    {
+                        sr13 = Convert.ToInt32(textBoxSure.Text);
+                        timer13.Start();
+                        dkm13 = 0;
+                        ucr13 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-14") == 0)
+                    {
+                        sr14 = Convert.ToInt32(textBoxSure.Text);
+                        timer14.Start();
+                        dkm14 = 0;
+                        ucr14 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-15") == 0)
+                    {
+                        sr15 = Convert.ToInt32(textBoxSure.Text);
+                        timer15.Start();
+                        dkm15 = 0;
+                        ucr15 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-16") == 0)
+                    {
+                        sr16 = Convert.ToInt32(textBoxSure.Text);
+                        timer16.Start();
+                        dkm16 = 0;
+                        ucr16 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-17") == 0)
+                    {
+                        sr17 = Convert.ToInt32(textBoxSure.Text);
+                        timer17.Start();
+                        dkm17 = 0;
+                        ucr17 = 1.5;
+                    }
+                    else if (string.Compare(labelMasa.Text, "Masa-18") == 0)
+                    {
+                        sr18 = Convert.ToInt32(textBoxSure.Text);
+                        timer18.Start();
+                        dkm18 = 0;
+                        ucr18 = 1.5;
+                    }
+                    else;
+                }
             }
         }
 
