@@ -27,6 +27,8 @@ namespace ProjeInternetCafe
             if (dkm6==0 || dkm6%15 ==0)
                 ucr6+=1.5;
             if (dkm6 >= sr6) timer6.Stop();
+            if (dkm6 == sr6)
+            { MessageBox.Show("MASA 6'NIN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr6 + "Tl"); }
         }
 
         private void timer7_Tick(object sender, EventArgs e)
@@ -41,6 +43,8 @@ namespace ProjeInternetCafe
             if (dkm7==0 || dkm7%15 ==0)
                 ucr7+=1.5;
             if (dkm7 >= sr7) timer7.Stop();
+            if (dkm7 == sr7)
+            { MessageBox.Show("MASA 7'NÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr7 + "Tl"); }
         }
 
         private void timer8_Tick(object sender, EventArgs e)
@@ -55,6 +59,8 @@ namespace ProjeInternetCafe
             if (dkm8==0 || dkm8%15 ==0)
                 ucr1+=1.5;
             if (dkm8 >= sr8) timer8.Stop();
+            if (dkm8 == sr8)
+            { MessageBox.Show("MASA 8'ÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr8 + "Tl"); }
         }
 
         private void timer9_Tick(object sender, EventArgs e)
@@ -69,6 +75,8 @@ namespace ProjeInternetCafe
             if (dkm9==0 || dkm9%15 ==0)
                 ucr9+=1.5;
             if (dkm9 >= sr9) timer9.Stop();
+            if (dkm9 == sr9)
+            { MessageBox.Show("MASA 9'UN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr9 + "Tl"); }
         }
 
         private void timer10_Tick(object sender, EventArgs e)
@@ -83,6 +91,8 @@ namespace ProjeInternetCafe
             if (dkm10==0 || dkm10%15 ==0)
                 ucr10+=1.5;
             if (dkm10 >= sr10) timer10.Stop();
+            if (dkm10 == sr10)
+            { MessageBox.Show("MASA 10'UN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr10 + "Tl"); }
         }
 
         private void timer11_Tick(object sender, EventArgs e)
@@ -97,6 +107,8 @@ namespace ProjeInternetCafe
             if (dkm11==0 || dkm11%15 ==0)
                 ucr11+=1.5;
             if (dkm11 >= sr11) timer11.Stop();
+            if (dkm11 == sr11)
+            { MessageBox.Show("MASA 11'ÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr11 + "Tl"); }
         }
 
         private void timer12_Tick(object sender, EventArgs e)
@@ -111,6 +123,8 @@ namespace ProjeInternetCafe
             if (dkm12==0 || dkm12%15 ==0)
                 ucr12+=1.5;
             if (dkm12 >= sr12) timer12.Stop();
+            if (dkm12 == sr12)
+            { MessageBox.Show("MASA 12'NÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr12 + "Tl"); }
         }
 
         private void timer13_Tick(object sender, EventArgs e)
@@ -125,6 +139,8 @@ namespace ProjeInternetCafe
             if (dkm13==0 || dkm13%15 ==0)
                 ucr13+=1.5;
             if (dkm13 >= sr13) timer13.Stop();
+            if (dkm13 == sr13)
+            { MessageBox.Show("MASA 13'ÜN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr13 + "Tl"); }
         }
 
         private void timer14_Tick(object sender, EventArgs e)
@@ -139,6 +155,8 @@ namespace ProjeInternetCafe
             if (dkm14==0 || dkm14%15 ==0)
                 ucr14+=1.5;
             if (dkm14 >= sr14) timer14.Stop();
+            if (dkm14 == sr14)
+            { MessageBox.Show("MASA 14'ÜN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr14 + "Tl"); }
         }
 
         private void timer15_Tick(object sender, EventArgs e)
@@ -153,6 +171,8 @@ namespace ProjeInternetCafe
             if (dkm15==0 || dkm15%15 ==0)
                 ucr15+=1.5;
             if (dkm15 >= sr15) timer15.Stop();
+            if (dkm15 == sr15)
+            { MessageBox.Show("MASA 15'ÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr15 + "Tl"); }
         }
 
         private void timer16_Tick(object sender, EventArgs e)
@@ -167,6 +187,8 @@ namespace ProjeInternetCafe
             if (dkm16==0 || dkm16%15 ==0)
                 ucr16+=1.5;
             if (dkm16 >= sr16) timer16.Stop();
+            if (dkm16 == sr16)
+            { MessageBox.Show("MASA 16'NIN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr16 + "Tl"); }
         }
 
         private void timer17_Tick(object sender, EventArgs e)
@@ -181,6 +203,8 @@ namespace ProjeInternetCafe
             if (dkm17==0 || dkm17%15 ==0)
                 ucr17+=1.5;
             if (dkm17 >= sr17) timer17.Stop();
+            if (dkm17 == sr17)
+            { MessageBox.Show("MASA 17'NÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr17 + "Tl"); }
         }
 
         private void timer18_Tick(object sender, EventArgs e)
@@ -195,6 +219,8 @@ namespace ProjeInternetCafe
             if (dkm18==0 || dkm18%15 ==0)
                 ucr18+=1.5;
             if (dkm18 >= sr18) timer1.Stop();
+            if (dkm18== sr18)
+            { MessageBox.Show("MASA 18'ÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr18 + "Tl"); }
         }
 
         private void masa18_Click(object sender, EventArgs e)
@@ -545,6 +571,8 @@ namespace ProjeInternetCafe
             if (dkm5==0 || dkm5%15 ==0)
                 ucr5+=1.5;
             if (dkm5 >= sr5) timer5.Stop();
+            if (dkm5 == sr5)
+            { MessageBox.Show("MASA 5'ÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr5 + "Tl"); }
 
         }
 
@@ -594,6 +622,8 @@ namespace ProjeInternetCafe
             if (dkm3==0 || dkm3%15 ==0)
                 ucr3+=1.5;
             if (dkm3 >= sr3) timer3.Stop();
+            if (dkm3 == sr3)
+            { MessageBox.Show("MASA 3'ÜN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr3 + "Tl"); }
         } 
         private void timer4_Tick(object sender, EventArgs e)
         {
@@ -607,6 +637,8 @@ namespace ProjeInternetCafe
             if (dkm4==0 || dkm4%15 ==0)
                 ucr4+=1.5;
             if (dkm4 >= sr4) timer4.Stop();
+            if (dkm4 == sr4)
+            { MessageBox.Show("MASA 4'ÜN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr4 + "Tl"); }
         }
 
         private void masa3_Click(object sender, EventArgs e)
@@ -876,7 +908,11 @@ namespace ProjeInternetCafe
             }
             if (dkm1==0 || dkm1%15 ==0)
                 ucr1+=1.5;
-            if (dkm1 >= sr1) timer1.Stop();
+            if (dkm1 >= sr1) 
+                timer1.Stop();
+            if(dkm1==sr1)
+            { MessageBox.Show("MASA 1'ÝN SÜRESÝ DOLMUÞTUR!"+"\n"+"ÖDENECEK ÜCRET=" +ucr1+ "Tl"); }
+                
 
         }
 
@@ -1029,9 +1065,11 @@ namespace ProjeInternetCafe
             if (dkm2==0 || dkm2%15 ==0)
                 ucr2+=1.5;
             if (dkm2 >= sr2) timer2.Stop();
+            if (dkm2 == sr2)
+            { MessageBox.Show("MASA 2'NÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr2 + "Tl"); }
 
-            
-          
+
+
         }
     }
 }
