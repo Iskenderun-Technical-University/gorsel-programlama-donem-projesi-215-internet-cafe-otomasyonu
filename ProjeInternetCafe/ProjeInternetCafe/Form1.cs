@@ -18,6 +18,7 @@ namespace ProjeInternetCafe
         private void timer6_Tick(object sender, EventArgs e)
         {
             dkm6++;
+            masa6.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-6")==0)
             {
                 labelGec.Text= Convert.ToString(dkm6);
@@ -26,14 +27,15 @@ namespace ProjeInternetCafe
             }
             if (dkm6==0 || dkm6%15 ==0)
                 ucr6+=1.5;
-            if (dkm6 >= sr6) timer6.Stop();
-            if (dkm6 == sr6)
-            { MessageBox.Show("MASA 6'NIN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr6 + "Tl"); }
+            if (dkm6 >= sr6){ timer6.Stop();
+                masa6.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 6'NIN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer7_Tick(object sender, EventArgs e)
         {
             dkm7++;
+            masa7.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-7")==0)
             {
                 labelGec.Text= Convert.ToString(dkm7);
@@ -42,14 +44,15 @@ namespace ProjeInternetCafe
             }
             if (dkm7==0 || dkm7%15 ==0)
                 ucr7+=1.5;
-            if (dkm7 >= sr7) timer7.Stop();
-            if (dkm7 == sr7)
-            { MessageBox.Show("MASA 7'NÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr7 + "Tl"); }
+            if (dkm7 >= sr7){ timer7.Stop();
+                masa7.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 7'NÝN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer8_Tick(object sender, EventArgs e)
         {
             dkm8++;
+            masa8.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-8")==0)
             {
                 labelGec.Text= Convert.ToString(dkm8);
@@ -58,14 +61,15 @@ namespace ProjeInternetCafe
             }
             if (dkm8==0 || dkm8%15 ==0)
                 ucr1+=1.5;
-            if (dkm8 >= sr8) timer8.Stop();
-            if (dkm8 == sr8)
-            { MessageBox.Show("MASA 8'ÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr8 + "Tl"); }
+            if (dkm8 >= sr8){ timer8.Stop();
+                masa8.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 8'ÝN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer9_Tick(object sender, EventArgs e)
         {
             dkm9++;
+            masa9.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-9")==0)
             {
                 labelGec.Text= Convert.ToString(dkm9);
@@ -74,14 +78,15 @@ namespace ProjeInternetCafe
             }
             if (dkm9==0 || dkm9%15 ==0)
                 ucr9+=1.5;
-            if (dkm9 >= sr9) timer9.Stop();
-            if (dkm9 == sr9)
-            { MessageBox.Show("MASA 9'UN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr9 + "Tl"); }
+            if (dkm9 >= sr9){ timer9.Stop();
+                masa9.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 9'UN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer10_Tick(object sender, EventArgs e)
         {
             dkm10++;
+            masa10.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-10")==0)
             {
                 labelGec.Text= Convert.ToString(dkm10);
@@ -90,14 +95,15 @@ namespace ProjeInternetCafe
             }
             if (dkm10==0 || dkm10%15 ==0)
                 ucr10+=1.5;
-            if (dkm10 >= sr10) timer10.Stop();
-            if (dkm10 == sr10)
-            { MessageBox.Show("MASA 10'UN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr10 + "Tl"); }
+            if (dkm10 >= sr10){ timer10.Stop();
+                masa10.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 10'UN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer11_Tick(object sender, EventArgs e)
         {
             dkm11++;
+            masa11.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-11")==0)
             {
                 labelGec.Text= Convert.ToString(dkm11);
@@ -106,14 +112,15 @@ namespace ProjeInternetCafe
             }
             if (dkm11==0 || dkm11%15 ==0)
                 ucr11+=1.5;
-            if (dkm11 >= sr11) timer11.Stop();
-            if (dkm11 == sr11)
-            { MessageBox.Show("MASA 11'ÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr11 + "Tl"); }
+            if (dkm11 >= sr11){ timer11.Stop();
+                masa11.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 11'ÝN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer12_Tick(object sender, EventArgs e)
         {
             dkm12++;
+            masa12.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-12")==0)
             {
                 labelGec.Text= Convert.ToString(dkm12);
@@ -122,14 +129,15 @@ namespace ProjeInternetCafe
             }
             if (dkm12==0 || dkm12%15 ==0)
                 ucr12+=1.5;
-            if (dkm12 >= sr12) timer12.Stop();
-            if (dkm12 == sr12)
-            { MessageBox.Show("MASA 12'NÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr12 + "Tl"); }
+            if (dkm12 >= sr12){ timer12.Stop();
+                masa12.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 12'NÝN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer13_Tick(object sender, EventArgs e)
         {
             dkm13++;
+            masa13.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-13")==0)
             {
                 labelGec.Text= Convert.ToString(dkm13);
@@ -138,14 +146,15 @@ namespace ProjeInternetCafe
             }
             if (dkm13==0 || dkm13%15 ==0)
                 ucr13+=1.5;
-            if (dkm13 >= sr13) timer13.Stop();
-            if (dkm13 == sr13)
-            { MessageBox.Show("MASA 13'ÜN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr13 + "Tl"); }
+            if (dkm13 >= sr13){ timer13.Stop();
+                masa13.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 13'ÜN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer14_Tick(object sender, EventArgs e)
         {
             dkm14++;
+            masa14.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-14")==0)
             {
                 labelGec.Text= Convert.ToString(dkm14);
@@ -154,14 +163,15 @@ namespace ProjeInternetCafe
             }
             if (dkm14==0 || dkm14%15 ==0)
                 ucr14+=1.5;
-            if (dkm14 >= sr14) timer14.Stop();
-            if (dkm14 == sr14)
-            { MessageBox.Show("MASA 14'ÜN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr14 + "Tl"); }
+            if (dkm14 >= sr14){ timer14.Stop();
+                masa14.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 14'ÜN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer15_Tick(object sender, EventArgs e)
         {
             dkm15++;
+            masa15.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-15")==0)
             {
                 labelGec.Text= Convert.ToString(dkm15);
@@ -170,14 +180,15 @@ namespace ProjeInternetCafe
             }
             if (dkm15==0 || dkm15%15 ==0)
                 ucr15+=1.5;
-            if (dkm15 >= sr15) timer15.Stop();
-            if (dkm15 == sr15)
-            { MessageBox.Show("MASA 15'ÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr15 + "Tl"); }
+            if (dkm15 >= sr15) {timer15.Stop();
+                masa15.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 15'ÝN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer16_Tick(object sender, EventArgs e)
         {
             dkm16++;
+            masa16.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-16")==0)
             {
                 labelGec.Text= Convert.ToString(dkm16);
@@ -186,14 +197,15 @@ namespace ProjeInternetCafe
             }
             if (dkm16==0 || dkm16%15 ==0)
                 ucr16+=1.5;
-            if (dkm16 >= sr16) timer16.Stop();
-            if (dkm16 == sr16)
-            { MessageBox.Show("MASA 16'NIN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr16 + "Tl"); }
+            if (dkm16 >= sr16){ timer16.Stop();
+                masa16.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 16'NIN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer17_Tick(object sender, EventArgs e)
         {
             dkm17++;
+            masa17.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-17")==0)
             {
                 labelGec.Text= Convert.ToString(dkm17);
@@ -202,14 +214,15 @@ namespace ProjeInternetCafe
             }
             if (dkm17==0 || dkm17%15 ==0)
                 ucr17+=1.5;
-            if (dkm17 >= sr17) timer17.Stop();
-            if (dkm17 == sr17)
-            { MessageBox.Show("MASA 17'NÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr17 + "Tl"); }
+            if (dkm17 >= sr17){ timer17.Stop();
+                masa17.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 17'NÝN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void timer18_Tick(object sender, EventArgs e)
         {
             dkm18++;
+            masa18.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-18")==0)
             {
                 labelGec.Text= Convert.ToString(dkm18);
@@ -218,9 +231,9 @@ namespace ProjeInternetCafe
             }
             if (dkm18==0 || dkm18%15 ==0)
                 ucr18+=1.5;
-            if (dkm18 >= sr18) timer1.Stop();
-            if (dkm18== sr18)
-            { MessageBox.Show("MASA 18'ÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr18 + "Tl"); }
+            if (dkm18 >= sr18){ timer18.Stop();
+                masa18.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 18'ÝN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void masa18_Click(object sender, EventArgs e)
@@ -562,6 +575,7 @@ namespace ProjeInternetCafe
         {
 
             dkm5++;
+            masa5.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-5")==0)
             {
                 labelGec.Text= Convert.ToString(dkm5);
@@ -570,9 +584,9 @@ namespace ProjeInternetCafe
             }
             if (dkm5==0 || dkm5%15 ==0)
                 ucr5+=1.5;
-            if (dkm5 >= sr5) timer5.Stop();
-            if (dkm5 == sr5)
-            { MessageBox.Show("MASA 5'ÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr5 + "Tl"); }
+            if (dkm5 >= sr5){ timer5.Stop();
+                masa5.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 5'ÝN SÜRESÝ DOLMUÞTUR!"); }
 
         }
 
@@ -613,6 +627,7 @@ namespace ProjeInternetCafe
         private void timer3_Tick(object sender, EventArgs e)
         {
             dkm3++;
+           
             if (string.Compare(labelMasa.Text, "Masa-3")==0)
             {
                 labelGec.Text= Convert.ToString(dkm3);
@@ -621,13 +636,15 @@ namespace ProjeInternetCafe
             }
             if (dkm3==0 || dkm3%15 ==0)
                 ucr3+=1.5;
-            if (dkm3 >= sr3) timer3.Stop();
-            if (dkm3 == sr3)
-            { MessageBox.Show("MASA 3'ÜN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr3 + "Tl"); }
+            if (dkm3 >= sr3) {
+                timer3.Stop();
+                masa3.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 3'ÜN SÜRESÝ DOLMUÞTUR!"); }
         } 
         private void timer4_Tick(object sender, EventArgs e)
         {
             dkm4++;
+            masa4.BackColor=Color.LightGreen;
             if (string.Compare(labelMasa.Text, "Masa-4")==0)
             {
                 labelGec.Text= Convert.ToString(dkm4);
@@ -636,9 +653,10 @@ namespace ProjeInternetCafe
             }
             if (dkm4==0 || dkm4%15 ==0)
                 ucr4+=1.5;
-            if (dkm4 >= sr4) timer4.Stop();
-            if (dkm4 == sr4)
-            { MessageBox.Show("MASA 4'ÜN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr4 + "Tl"); }
+            if (dkm4 >= sr4){
+                timer4.Stop();
+                masa4.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 4'ÜN SÜRESÝ DOLMUÞTUR!"); }
         }
 
         private void masa3_Click(object sender, EventArgs e)
@@ -713,108 +731,127 @@ namespace ProjeInternetCafe
                labelKal.Text = "0";
                 timer1.Stop();
                dkm1 = 0;
+                masa1.BackColor=Color.LightCoral;
+
             }
             else if (string.Compare(labelMasa.Text, "Masa-2")==0)
             {
                 labelKal.Text = "0";
                 timer2.Stop();
                 dkm2 = 0;
+                masa2.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-3")==0)
             {
                 labelKal.Text = "0";
                 timer3.Stop(); 
                 dkm3 = 0;
+                masa3.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-4")==0)
             {
                 labelKal.Text = "0";
                 timer4.Stop();
                 dkm4 = 0;
+                masa4.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-5")==0)
             {
                 labelKal.Text = "0";
                 timer5.Stop(); 
                 dkm5 = 0;
+                masa5.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-6")==0)
             {
                 labelKal.Text = "0";
                 timer6.Stop();
                 dkm6 = 0;
+                masa6.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-7")==0)
             {
                 labelKal.Text = "0";
                 timer7.Stop();
                 dkm7 = 0;
+                masa7.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-8")==0)
             {
                 labelKal.Text = "0";
                 timer8.Stop();
                 dkm8 = 0;
+                masa8.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-9")==0)
             {
                 labelKal.Text = "0";
                 timer9.Stop();
                 dkm9 = 0;
+                masa9.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-10")==0)
             {
                 labelKal.Text = "0";
                 timer10.Stop();
                 dkm10 = 0;
+                masa10.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-11")==0)
             {
                 labelKal.Text = "0";
                 timer11.Stop();
                 dkm11 = 0;
+                masa11.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-12")==0)
             {
                 labelKal.Text = "0";
                 timer12.Stop();
                 dkm12 = 0;
+                masa12.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-13")==0)
             {
                 labelKal.Text = "0";
                 timer13.Stop();
                 dkm13 = 0;
+                masa13.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-14")==0)
             {
                 labelKal.Text = "0";
                 timer14.Stop();
                 dkm14 = 0;
+                masa14.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-15")==0)
             {
                 labelKal.Text = "0";
                 timer15.Stop();
                 dkm15 = 0;
+                masa15.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-16")==0)
             {
                 labelKal.Text = "0";
                 timer16.Stop();
                 dkm16 = 0;
+                masa16.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-17")==0)
             {
                 labelKal.Text = "0";
                 timer17.Stop();
                 dkm17 = 0;
+                masa17.BackColor=Color.LightCoral;
             }
             else if (string.Compare(labelMasa.Text, "Masa-18")==0)
             {
                 labelKal.Text = "0";
                 timer18.Stop();
                 dkm18 = 0;
+                masa18.BackColor=Color.LightCoral;
             }
             else;
         }
@@ -900,6 +937,7 @@ namespace ProjeInternetCafe
         {
 
             dkm1++;
+           
             if (string.Compare(labelMasa.Text, "Masa-1")==0)
             {
                 labelGec.Text= Convert.ToString(dkm1);
@@ -908,10 +946,11 @@ namespace ProjeInternetCafe
             }
             if (dkm1==0 || dkm1%15 ==0)
                 ucr1+=1.5;
-            if (dkm1 >= sr1) 
+            if (dkm1 >= sr1) {  
                 timer1.Stop();
-            if(dkm1==sr1)
-            { MessageBox.Show("MASA 1'ÝN SÜRESÝ DOLMUÞTUR!"+"\n"+"ÖDENECEK ÜCRET=" +ucr1+ "Tl"); }
+                masa1.BackColor=Color.LightCoral;
+            
+             MessageBox.Show("MASA 1'ÝN SÜRESÝ DOLMUÞTUR!"); }
                 
 
         }
@@ -926,127 +965,199 @@ namespace ProjeInternetCafe
                     {
                         sr1 = Convert.ToInt32(textBoxSure.Text);
                         timer1.Start();
-                        dkm1 = 0;
+                        dkm1 = 1;
                         ucr1 = 1.5;
+                        masa1.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm1);
+                        labelKal.Text= Convert.ToString(sr1);
+                        labelUcret.Text= Convert.ToString(ucr1);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-2") == 0)
                     {
                         sr2 = Convert.ToInt32(textBoxSure.Text);
                         timer2.Start();
-                        dkm2 = 0;
+                        dkm2 = 1;
                         ucr2 = 1.5;
+                        masa2.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm2);
+                        labelKal.Text= Convert.ToString(sr2);
+                        labelUcret.Text= Convert.ToString(ucr2);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-3") == 0)
                     {
                         sr3 = Convert.ToInt32(textBoxSure.Text);
                         timer3.Start();
-                        dkm3 = 0;
+                        dkm3 =1;
                         ucr3 = 1.5;
+                        masa3.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm3);
+                        labelKal.Text= Convert.ToString(sr3);
+                        labelUcret.Text= Convert.ToString(ucr3);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-4") == 0)
                     {
                         sr4 = Convert.ToInt32(textBoxSure.Text);
                         timer4.Start();
-                        dkm4 = 0;
+                        dkm4 = 1;
                         ucr4 = 1.5;
+                        masa4.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm4);
+                        labelKal.Text= Convert.ToString(sr4);
+                        labelUcret.Text= Convert.ToString(ucr4);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-5") == 0)
                     {
                         sr5 = Convert.ToInt32(textBoxSure.Text);
                         timer5.Start();
-                        dkm5 = 0;
+                        dkm5 = 1;
                         ucr5 = 1.5;
+                        masa5.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm5);
+                        labelKal.Text= Convert.ToString(sr5);
+                        labelUcret.Text= Convert.ToString(ucr5);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-6") == 0)
                     {
                         sr6 = Convert.ToInt32(textBoxSure.Text);
                         timer6.Start();
-                        dkm6 = 0;
+                        dkm6 = 1;
                         ucr6 = 1.5;
+                        masa6.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm6);
+                        labelKal.Text= Convert.ToString(sr6);
+                        labelUcret.Text= Convert.ToString(ucr6);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-7") == 0)
                     {
                         sr7 = Convert.ToInt32(textBoxSure.Text);
                         timer7.Start();
-                        dkm7 = 0;
+                        dkm7 = 1;
                         ucr7 = 1.5;
+                        masa7.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm7);
+                        labelKal.Text= Convert.ToString(sr7);
+                        labelUcret.Text= Convert.ToString(ucr7);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-8") == 0)
                     {
                         sr8 = Convert.ToInt32(textBoxSure.Text);
                         timer8.Start();
-                        dkm8 = 0;
+                        dkm8 = 1;
                         ucr8 = 1.5;
+                        masa8.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm8);
+                        labelKal.Text= Convert.ToString(sr8);
+                        labelUcret.Text= Convert.ToString(ucr8);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-9") == 0)
                     {
                         sr9 = Convert.ToInt32(textBoxSure.Text);
                         timer9.Start();
-                        dkm9 = 0;
+                        dkm9 = 1;
                         ucr9 = 1.5;
+                        masa9.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm9);
+                        labelKal.Text= Convert.ToString(sr9);
+                        labelUcret.Text= Convert.ToString(ucr9);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-10") == 0)
                     {
                         sr10 = Convert.ToInt32(textBoxSure.Text);
                         timer10.Start();
-                        dkm10 = 0;
+                        dkm10 = 1;
                         ucr10 = 1.5;
+                        masa10.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm10);
+                        labelKal.Text= Convert.ToString(sr10);
+                        labelUcret.Text= Convert.ToString(ucr10);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-11") == 0)
                     {
                         sr11 = Convert.ToInt32(textBoxSure.Text);
                         timer11.Start();
-                        dkm11 = 0;
+                        dkm11 = 1;
                         ucr11 = 1.5;
+                        masa11.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm11);
+                        labelKal.Text= Convert.ToString(sr11);
+                        labelUcret.Text= Convert.ToString(ucr11);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-12") == 0)
                     {
                         sr12 = Convert.ToInt32(textBoxSure.Text);
                         timer12.Start();
-                        dkm12 = 0;
+                        dkm12 = 1;
                         ucr12 = 1.5;
+                        masa12.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm12);
+                        labelKal.Text= Convert.ToString(sr12);
+                        labelUcret.Text= Convert.ToString(ucr12);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-13") == 0)
                     {
                         sr13 = Convert.ToInt32(textBoxSure.Text);
                         timer13.Start();
-                        dkm13 = 0;
+                        dkm13 = 1;
                         ucr13 = 1.5;
+                        masa13.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm13);
+                        labelKal.Text= Convert.ToString(sr13);
+                        labelUcret.Text= Convert.ToString(ucr13);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-14") == 0)
                     {
                         sr14 = Convert.ToInt32(textBoxSure.Text);
                         timer14.Start();
-                        dkm14 = 0;
+                        dkm14 = 1;
                         ucr14 = 1.5;
+                        masa14.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm14);
+                        labelKal.Text= Convert.ToString(sr14);
+                        labelUcret.Text= Convert.ToString(ucr14);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-15") == 0)
                     {
                         sr15 = Convert.ToInt32(textBoxSure.Text);
                         timer15.Start();
-                        dkm15 = 0;
+                        dkm15 = 1;
                         ucr15 = 1.5;
+                        masa15.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm15);
+                        labelKal.Text= Convert.ToString(sr15);
+                        labelUcret.Text= Convert.ToString(ucr15);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-16") == 0)
                     {
                         sr16 = Convert.ToInt32(textBoxSure.Text);
                         timer16.Start();
-                        dkm16 = 0;
+                        dkm16 = 1;
                         ucr16 = 1.5;
+                        masa16.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm16);
+                        labelKal.Text= Convert.ToString(sr16);
+                        labelUcret.Text= Convert.ToString(ucr16);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-17") == 0)
                     {
                         sr17 = Convert.ToInt32(textBoxSure.Text);
                         timer17.Start();
-                        dkm17 = 0;
+                        dkm17 = 1;
                         ucr17 = 1.5;
+                        masa17.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm17);
+                        labelKal.Text= Convert.ToString(sr17);
+                        labelUcret.Text= Convert.ToString(ucr17);
                     }
                     else if (string.Compare(labelMasa.Text, "Masa-18") == 0)
                     {
                         sr18 = Convert.ToInt32(textBoxSure.Text);
                         timer18.Start();
-                        dkm18 = 0;
+                        dkm18 = 1;
                         ucr18 = 1.5;
+                        masa18.BackColor=Color.LightGreen;
+                        labelGec.Text= Convert.ToString(dkm18);
+                        labelKal.Text= Convert.ToString(sr18);
+                        labelUcret.Text= Convert.ToString(ucr18);
                     }
                     else;
                 }
@@ -1056,6 +1167,7 @@ namespace ProjeInternetCafe
         private void timer2_Tick(object sender, EventArgs e)
         {
             dkm2++;
+            
             if (string.Compare(labelMasa.Text, "Masa-2")==0)
             {
                 labelGec.Text= Convert.ToString(dkm2);
@@ -1064,9 +1176,9 @@ namespace ProjeInternetCafe
             }
             if (dkm2==0 || dkm2%15 ==0)
                 ucr2+=1.5;
-            if (dkm2 >= sr2) timer2.Stop();
-            if (dkm2 == sr2)
-            { MessageBox.Show("MASA 2'NÝN SÜRESÝ DOLMUÞTUR!" + "\n" + "ÖDENECEK ÜCRET=" + ucr2 + "Tl"); }
+            if (dkm2 >= sr2){ timer2.Stop();
+                masa2.BackColor=Color.LightCoral;
+                MessageBox.Show("MASA 2'NÝN SÜRESÝ DOLMUÞTUR!"); }
 
 
 

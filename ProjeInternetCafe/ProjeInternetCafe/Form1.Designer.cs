@@ -93,6 +93,7 @@
             // 
             // masa1
             // 
+            this.masa1.BackColor = System.Drawing.Color.LightCoral;
             this.masa1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa1.FlatAppearance.BorderSize = 0;
             this.masa1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -104,7 +105,7 @@
             this.masa1.TabIndex = 0;
             this.masa1.Text = "Masa-1";
             this.masa1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa1.UseVisualStyleBackColor = true;
+            this.masa1.UseVisualStyleBackColor = false;
             this.masa1.Click += new System.EventHandler(this.masa1_Click);
             // 
             // ımageList1
@@ -116,6 +117,7 @@
             // 
             // masa2
             // 
+            this.masa2.BackColor = System.Drawing.Color.LightCoral;
             this.masa2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa2.FlatAppearance.BorderSize = 0;
             this.masa2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -127,11 +129,12 @@
             this.masa2.TabIndex = 1;
             this.masa2.Text = "Masa-2";
             this.masa2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa2.UseVisualStyleBackColor = true;
+            this.masa2.UseVisualStyleBackColor = false;
             this.masa2.Click += new System.EventHandler(this.masa2_Click);
             // 
             // masa3
             // 
+            this.masa3.BackColor = System.Drawing.Color.LightCoral;
             this.masa3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa3.FlatAppearance.BorderSize = 0;
             this.masa3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -143,11 +146,12 @@
             this.masa3.TabIndex = 2;
             this.masa3.Text = "Masa-3";
             this.masa3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa3.UseVisualStyleBackColor = true;
+            this.masa3.UseVisualStyleBackColor = false;
             this.masa3.Click += new System.EventHandler(this.masa3_Click);
             // 
             // masa4
             // 
+            this.masa4.BackColor = System.Drawing.Color.LightCoral;
             this.masa4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa4.FlatAppearance.BorderSize = 0;
             this.masa4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -159,11 +163,12 @@
             this.masa4.TabIndex = 3;
             this.masa4.Text = "Masa-4";
             this.masa4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa4.UseVisualStyleBackColor = true;
+            this.masa4.UseVisualStyleBackColor = false;
             this.masa4.Click += new System.EventHandler(this.masa4_Click);
             // 
             // masa5
             // 
+            this.masa5.BackColor = System.Drawing.Color.LightCoral;
             this.masa5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa5.FlatAppearance.BorderSize = 0;
             this.masa5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -175,11 +180,12 @@
             this.masa5.TabIndex = 4;
             this.masa5.Text = "Masa-5";
             this.masa5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa5.UseVisualStyleBackColor = true;
+            this.masa5.UseVisualStyleBackColor = false;
             this.masa5.Click += new System.EventHandler(this.masa5_Click);
             // 
             // masa6
             // 
+            this.masa6.BackColor = System.Drawing.Color.LightCoral;
             this.masa6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa6.FlatAppearance.BorderSize = 0;
             this.masa6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -191,11 +197,12 @@
             this.masa6.TabIndex = 5;
             this.masa6.Text = "Masa-6";
             this.masa6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa6.UseVisualStyleBackColor = true;
+            this.masa6.UseVisualStyleBackColor = false;
             this.masa6.Click += new System.EventHandler(this.masa6_Click);
             // 
             // masa7
             // 
+            this.masa7.BackColor = System.Drawing.Color.LightCoral;
             this.masa7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa7.FlatAppearance.BorderSize = 0;
             this.masa7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -207,11 +214,12 @@
             this.masa7.TabIndex = 6;
             this.masa7.Text = "Masa-7";
             this.masa7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa7.UseVisualStyleBackColor = true;
+            this.masa7.UseVisualStyleBackColor = false;
             this.masa7.Click += new System.EventHandler(this.masa7_Click);
             // 
             // masa8
             // 
+            this.masa8.BackColor = System.Drawing.Color.LightCoral;
             this.masa8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa8.FlatAppearance.BorderSize = 0;
             this.masa8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -223,11 +231,12 @@
             this.masa8.TabIndex = 7;
             this.masa8.Text = "Masa-8";
             this.masa8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa8.UseVisualStyleBackColor = true;
+            this.masa8.UseVisualStyleBackColor = false;
             this.masa8.Click += new System.EventHandler(this.masa8_Click);
             // 
             // masa9
             // 
+            this.masa9.BackColor = System.Drawing.Color.LightCoral;
             this.masa9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa9.FlatAppearance.BorderSize = 0;
             this.masa9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -239,11 +248,12 @@
             this.masa9.TabIndex = 8;
             this.masa9.Text = "Masa-9";
             this.masa9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa9.UseVisualStyleBackColor = true;
+            this.masa9.UseVisualStyleBackColor = false;
             this.masa9.Click += new System.EventHandler(this.masa9_Click);
             // 
             // masa18
             // 
+            this.masa18.BackColor = System.Drawing.Color.LightCoral;
             this.masa18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa18.FlatAppearance.BorderSize = 0;
             this.masa18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -255,11 +265,12 @@
             this.masa18.TabIndex = 17;
             this.masa18.Text = "Masa-18";
             this.masa18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa18.UseVisualStyleBackColor = true;
+            this.masa18.UseVisualStyleBackColor = false;
             this.masa18.Click += new System.EventHandler(this.masa18_Click);
             // 
             // masa17
             // 
+            this.masa17.BackColor = System.Drawing.Color.LightCoral;
             this.masa17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa17.FlatAppearance.BorderSize = 0;
             this.masa17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -271,11 +282,12 @@
             this.masa17.TabIndex = 16;
             this.masa17.Text = "Masa-17";
             this.masa17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa17.UseVisualStyleBackColor = true;
+            this.masa17.UseVisualStyleBackColor = false;
             this.masa17.Click += new System.EventHandler(this.masa17_Click);
             // 
             // masa16
             // 
+            this.masa16.BackColor = System.Drawing.Color.LightCoral;
             this.masa16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa16.FlatAppearance.BorderSize = 0;
             this.masa16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -287,11 +299,12 @@
             this.masa16.TabIndex = 15;
             this.masa16.Text = "Masa-16";
             this.masa16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa16.UseVisualStyleBackColor = true;
+            this.masa16.UseVisualStyleBackColor = false;
             this.masa16.Click += new System.EventHandler(this.masa16_Click);
             // 
             // masa15
             // 
+            this.masa15.BackColor = System.Drawing.Color.LightCoral;
             this.masa15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa15.FlatAppearance.BorderSize = 0;
             this.masa15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -303,11 +316,12 @@
             this.masa15.TabIndex = 14;
             this.masa15.Text = "Masa-15";
             this.masa15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa15.UseVisualStyleBackColor = true;
+            this.masa15.UseVisualStyleBackColor = false;
             this.masa15.Click += new System.EventHandler(this.masa15_Click);
             // 
             // masa14
             // 
+            this.masa14.BackColor = System.Drawing.Color.LightCoral;
             this.masa14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa14.FlatAppearance.BorderSize = 0;
             this.masa14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -319,11 +333,12 @@
             this.masa14.TabIndex = 13;
             this.masa14.Text = "Masa-14";
             this.masa14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa14.UseVisualStyleBackColor = true;
+            this.masa14.UseVisualStyleBackColor = false;
             this.masa14.Click += new System.EventHandler(this.masa14_Click);
             // 
             // masa13
             // 
+            this.masa13.BackColor = System.Drawing.Color.LightCoral;
             this.masa13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa13.FlatAppearance.BorderSize = 0;
             this.masa13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -335,11 +350,12 @@
             this.masa13.TabIndex = 12;
             this.masa13.Text = "Masa-13";
             this.masa13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa13.UseVisualStyleBackColor = true;
+            this.masa13.UseVisualStyleBackColor = false;
             this.masa13.Click += new System.EventHandler(this.masa13_Click);
             // 
             // masa12
             // 
+            this.masa12.BackColor = System.Drawing.Color.LightCoral;
             this.masa12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa12.FlatAppearance.BorderSize = 0;
             this.masa12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -351,11 +367,12 @@
             this.masa12.TabIndex = 11;
             this.masa12.Text = "Masa-12";
             this.masa12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa12.UseVisualStyleBackColor = true;
+            this.masa12.UseVisualStyleBackColor = false;
             this.masa12.Click += new System.EventHandler(this.masa12_Click);
             // 
             // masa11
             // 
+            this.masa11.BackColor = System.Drawing.Color.LightCoral;
             this.masa11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa11.FlatAppearance.BorderSize = 0;
             this.masa11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -367,11 +384,12 @@
             this.masa11.TabIndex = 10;
             this.masa11.Text = "Masa-11";
             this.masa11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa11.UseVisualStyleBackColor = true;
+            this.masa11.UseVisualStyleBackColor = false;
             this.masa11.Click += new System.EventHandler(this.masa11_Click);
             // 
             // masa10
             // 
+            this.masa10.BackColor = System.Drawing.Color.LightCoral;
             this.masa10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.masa10.FlatAppearance.BorderSize = 0;
             this.masa10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -383,7 +401,7 @@
             this.masa10.TabIndex = 9;
             this.masa10.Text = "Masa-10";
             this.masa10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.masa10.UseVisualStyleBackColor = true;
+            this.masa10.UseVisualStyleBackColor = false;
             this.masa10.Click += new System.EventHandler(this.masa10_Click);
             // 
             // buttonMAc
@@ -524,78 +542,97 @@
             // 
             // timer1
             // 
+            this.timer1.Interval = 60000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // timer2
             // 
+            this.timer2.Interval = 60000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // timer3
             // 
+            this.timer3.Interval = 60000;
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
             // timer4
             // 
+            this.timer4.Interval = 60000;
             this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
             // 
             // timer5
             // 
+            this.timer5.Interval = 60000;
             this.timer5.Tick += new System.EventHandler(this.timer5_Tick);
             // 
             // timer6
             // 
+            this.timer6.Interval = 60000;
             this.timer6.Tick += new System.EventHandler(this.timer6_Tick);
             // 
             // timer7
             // 
+            this.timer7.Interval = 60000;
             this.timer7.Tick += new System.EventHandler(this.timer7_Tick);
             // 
             // timer8
             // 
+            this.timer8.Interval = 60000;
             this.timer8.Tick += new System.EventHandler(this.timer8_Tick);
             // 
             // timer9
             // 
+            this.timer9.Interval = 60000;
             this.timer9.Tick += new System.EventHandler(this.timer9_Tick);
             // 
             // timer10
             // 
+            this.timer10.Interval = 60000;
             this.timer10.Tick += new System.EventHandler(this.timer10_Tick);
             // 
             // timer11
             // 
+            this.timer11.Interval = 60000;
             this.timer11.Tick += new System.EventHandler(this.timer11_Tick);
             // 
             // timer12
             // 
+            this.timer12.Interval = 60000;
             this.timer12.Tick += new System.EventHandler(this.timer12_Tick);
             // 
             // timer13
             // 
+            this.timer13.Interval = 60000;
             this.timer13.Tick += new System.EventHandler(this.timer13_Tick);
             // 
             // timer14
             // 
+            this.timer14.Interval = 60000;
             this.timer14.Tick += new System.EventHandler(this.timer14_Tick);
             // 
             // timer15
             // 
+            this.timer15.Interval = 60000;
             this.timer15.Tick += new System.EventHandler(this.timer15_Tick);
             // 
             // timer16
             // 
+            this.timer16.Interval = 60000;
             this.timer16.Tick += new System.EventHandler(this.timer16_Tick);
             // 
             // timer17
             // 
+            this.timer17.Interval = 60000;
             this.timer17.Tick += new System.EventHandler(this.timer17_Tick);
             // 
             // timer18
             // 
+            this.timer18.Interval = 60000;
             this.timer18.Tick += new System.EventHandler(this.timer18_Tick);
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Menu;
             this.tableLayoutPanel1.ColumnCount = 9;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
@@ -696,7 +733,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "A Internet Cafe";
+            this.Text = "Kardeşler Internet Cafe";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
