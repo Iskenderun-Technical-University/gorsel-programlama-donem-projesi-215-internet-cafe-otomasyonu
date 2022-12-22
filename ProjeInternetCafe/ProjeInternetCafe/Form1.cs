@@ -726,12 +726,12 @@ namespace ProjeInternetCafe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (string.Compare(labelMasa.Text, "Masa-1")==0)
+            if (string.Compare(labelMasa.Text, "Masa-1")==0)//hangi masa kapanacak
             {
                labelKal.Text = "0";
                 timer1.Stop();
                dkm1 = 0;
-                masa1.BackColor=Color.LightCoral;
+                masa1.BackColor=Color.LightCoral;//masa kapandýðýnda renk deðiþimi
 
             }
             else if (string.Compare(labelMasa.Text, "Masa-2")==0)
@@ -938,19 +938,19 @@ namespace ProjeInternetCafe
 
             dkm1++;
            
-            if (string.Compare(labelMasa.Text, "Masa-1")==0)
+            if (string.Compare(labelMasa.Text, "Masa-1")==0) //masa buttonýna basýldýðýnda fark edip labellarýn deðiþimini saðlar
             {
                 labelGec.Text= Convert.ToString(dkm1);
                 labelKal.Text= Convert.ToString(sr1);
                 labelUcret.Text= Convert.ToString(ucr1)+ "tl";
             }
-            if (dkm1==0 || dkm1%15 ==0)
+            if (dkm1==0 || dkm1%15 ==0)//her 15 dakikada bir para ekler
                 ucr1+=1.5;
-            if (dkm1 >= sr1) {  
+            if (dkm1 >= sr1) {  //süre bittiðinde masayý durdurur
                 timer1.Stop();
-                masa1.BackColor=Color.LightCoral;
+                masa1.BackColor=Color.LightCoral;//renk deðiþimi
             
-             MessageBox.Show("MASA 1'ÝN SÜRESÝ DOLMUÞTUR!"); }
+             MessageBox.Show("MASA 1'ÝN SÜRESÝ DOLMUÞTUR!"); } //masa bitince messagebox açar
                 
 
         }
@@ -961,13 +961,13 @@ namespace ProjeInternetCafe
                 if (string.Compare(textBoxSure.Text, "") == 1) // TextBox boþ ise çalýþmamasýný saðlar
 
                 {
-                    if (string.Compare(labelMasa.Text, "Masa-1") == 0)// hangi masa timer'ý baþlayacak onu görmek için
+                    if (string.Compare(labelMasa.Text, "Masa-1") == 0)// hangi masa timer'ý baþlatacaðý
                     {
                         sr1 = Convert.ToInt32(textBoxSure.Text);
                         timer1.Start();
                         dkm1 = 1;
                         ucr1 = 1.5;
-                        masa1.BackColor=Color.LightGreen;
+                        masa1.BackColor=Color.LightGreen; // button'ý masa açýldýðýnda yeþile çevirir
                         labelGec.Text= Convert.ToString(dkm1);
                         labelKal.Text= Convert.ToString(sr1);
                         labelUcret.Text= Convert.ToString(ucr1);

@@ -1,0 +1,5 @@
+C:\Users\Ahmet\Desktop\Proje\ProjeInternetCafe.exe
+C:\Users\Ahmet\Desktop\Proje\ProjeInternetCafe.dll
+C:\Users\Ahmet\Desktop\Proje\ProjeInternetCafe.deps.json
+C:\Users\Ahmet\Desktop\Proje\ProjeInternetCafe.runtimeconfig.json
+C:\Users\Ahmet\Desktop\Proje\ProjeInternetCafe.pdb
